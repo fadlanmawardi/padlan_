@@ -1,0 +1,2322 @@
+
+> ruang-baca@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.22.60.27:3000
+✓ Ready in 3.7s
+✓ Running next.config.ts took 491ms
+
+○ Compiling /login ...
+ GET /login 200 in 308ms (next.js: 54ms, application-code: 254ms)
+ GET /super-admin/dashboard 200 in 7.9s (next.js: 6.9s, application-code: 1042ms)
+ GET /login 200 in 421ms (next.js: 60ms, application-code: 361ms)
+ GET /login 200 in 245ms (next.js: 50ms, application-code: 195ms)
+ GET /login 200 in 183ms (next.js: 24ms, application-code: 160ms)
+ GET /super-admin/dashboard 200 in 1049ms (next.js: 51ms, application-code: 999ms)
+ GET /super-admin/dashboard 200 in 635ms (next.js: 124ms, application-code: 511ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /super-admin/dashboard 200 in 1799ms (next.js: 180ms, application-code: 1619ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 36ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 74ms (next.js: 28ms, application-code: 45ms)
+ GET /super-admin/dashboard 200 in 67ms (next.js: 29ms, application-code: 38ms)
+ GET /super-admin/dashboard 200 in 78ms (next.js: 27ms, application-code: 51ms)
+ GET /super-admin/dashboard 200 in 213ms (next.js: 113ms, application-code: 100ms)
+ GET /super-admin/dashboard 200 in 990ms (next.js: 30ms, application-code: 960ms)
+ GET /super-admin/dashboard 200 in 908ms (next.js: 50ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 82ms (next.js: 32ms, application-code: 49ms)
+ GET /super-admin/dashboard 200 in 219ms (next.js: 77ms, application-code: 142ms)
+ GET /super-admin/dashboard 200 in 910ms (next.js: 119ms, application-code: 791ms)
+ GET /super-admin/dashboard 200 in 849ms (next.js: 54ms, application-code: 794ms)
+ GET /super-admin/dashboard 200 in 75ms (next.js: 25ms, application-code: 50ms)
+ GET /super-admin/dashboard 200 in 90ms (next.js: 31ms, application-code: 59ms)
+ GET /super-admin/dashboard 200 in 928ms (next.js: 117ms, application-code: 811ms)
+ GET /super-admin/dashboard 200 in 105ms (next.js: 29ms, application-code: 77ms)
+ GET /super-admin/dashboard 200 in 128ms (next.js: 32ms, application-code: 96ms)
+ GET /super-admin/dashboard 200 in 1058ms (next.js: 26ms, application-code: 1031ms)
+ GET /super-admin/dashboard 200 in 855ms (next.js: 30ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 76ms (next.js: 22ms, application-code: 53ms)
+ GET /super-admin/dashboard 200 in 836ms (next.js: 24ms, application-code: 813ms)
+ GET /super-admin/dashboard 200 in 182ms (next.js: 24ms, application-code: 158ms)
+ GET /super-admin/dashboard 200 in 63ms (next.js: 23ms, application-code: 40ms)
+ GET /super-admin/dashboard 200 in 879ms (next.js: 50ms, application-code: 829ms)
+ GET /super-admin/dashboard 200 in 195ms (next.js: 35ms, application-code: 160ms)
+ GET /super-admin/dashboard 200 in 943ms (next.js: 30ms, application-code: 913ms)
+ GET /super-admin/dashboard 200 in 830ms (next.js: 32ms, application-code: 798ms)
+ GET /super-admin/dashboard 200 in 78ms (next.js: 33ms, application-code: 45ms)
+ GET /super-admin/dashboard 200 in 161ms (next.js: 24ms, application-code: 136ms)
+ GET /super-admin/dashboard 200 in 968ms (next.js: 25ms, application-code: 943ms)
+ GET /super-admin/dashboard 200 in 66ms (next.js: 20ms, application-code: 47ms)
+ GET /super-admin/dashboard 200 in 869ms (next.js: 26ms, application-code: 842ms)
+ GET /super-admin/dashboard 200 in 85ms (next.js: 32ms, application-code: 53ms)
+ GET /super-admin/dashboard 200 in 913ms (next.js: 24ms, application-code: 889ms)
+ GET /super-admin/dashboard 200 in 60ms (next.js: 21ms, application-code: 39ms)
+ GET /super-admin/dashboard 200 in 112ms (next.js: 51ms, application-code: 62ms)
+ GET /super-admin/dashboard 200 in 929ms (next.js: 60ms, application-code: 869ms)
+ GET /super-admin/dashboard 200 in 882ms (next.js: 22ms, application-code: 860ms)
+ GET /super-admin/dashboard 200 in 57ms (next.js: 21ms, application-code: 36ms)
+ GET /super-admin/dashboard 200 in 185ms (next.js: 50ms, application-code: 136ms)
+ GET /super-admin/dashboard 200 in 1018ms (next.js: 28ms, application-code: 990ms)
+ GET /super-admin/dashboard 200 in 889ms (next.js: 21ms, application-code: 868ms)
+ GET /super-admin/dashboard 200 in 77ms (next.js: 25ms, application-code: 52ms)
+ GET /super-admin/dashboard 200 in 847ms (next.js: 27ms, application-code: 819ms)
+ GET /super-admin/dashboard 200 in 91ms (next.js: 29ms, application-code: 63ms)
+ GET /super-admin/dashboard 200 in 966ms (next.js: 23ms, application-code: 943ms)
+ GET /super-admin/dashboard 200 in 859ms (next.js: 78ms, application-code: 781ms)
+ GET /super-admin/dashboard 200 in 61ms (next.js: 19ms, application-code: 42ms)
+ GET /super-admin/dashboard 200 in 81ms (next.js: 22ms, application-code: 59ms)
+ GET /super-admin/dashboard 200 in 960ms (next.js: 25ms, application-code: 935ms)
+ GET /super-admin/dashboard 200 in 63ms (next.js: 23ms, application-code: 40ms)
+ GET /super-admin/dashboard 200 in 847ms (next.js: 33ms, application-code: 815ms)
+ GET /super-admin/dashboard 200 in 82ms (next.js: 32ms, application-code: 50ms)
+ GET /super-admin/dashboard 200 in 845ms (next.js: 26ms, application-code: 819ms)
+ GET /super-admin/dashboard 200 in 90ms (next.js: 38ms, application-code: 52ms)
+ GET /super-admin/dashboard 200 in 861ms (next.js: 33ms, application-code: 828ms)
+ GET /super-admin/dashboard 200 in 102ms (next.js: 26ms, application-code: 76ms)
+ GET /super-admin/dashboard 200 in 929ms (next.js: 20ms, application-code: 909ms)
+ GET /super-admin/dashboard 200 in 55ms (next.js: 17ms, application-code: 38ms)
+ GET /super-admin/dashboard 200 in 864ms (next.js: 27ms, application-code: 837ms)
+ GET /super-admin/dashboard 200 in 77ms (next.js: 23ms, application-code: 54ms)
+ GET /super-admin/dashboard 200 in 902ms (next.js: 23ms, application-code: 880ms)
+ GET /super-admin/dashboard 200 in 54ms (next.js: 18ms, application-code: 36ms)
+ GET /super-admin/dashboard 200 in 80ms (next.js: 21ms, application-code: 59ms)
+ GET /super-admin/dashboard 200 in 944ms (next.js: 44ms, application-code: 899ms)
+ GET /super-admin/dashboard 200 in 808ms (next.js: 24ms, application-code: 784ms)
+ GET /super-admin/dashboard 200 in 62ms (next.js: 21ms, application-code: 41ms)
+ GET /super-admin/dashboard 200 in 192ms (next.js: 32ms, application-code: 160ms)
+ GET /super-admin/dashboard 200 in 973ms (next.js: 23ms, application-code: 950ms)
+ GET /super-admin/dashboard 200 in 886ms (next.js: 20ms, application-code: 866ms)
+ GET /super-admin/dashboard 200 in 838ms (next.js: 51ms, application-code: 786ms)
+ GET /super-admin/dashboard 200 in 76ms (next.js: 33ms, application-code: 42ms)
+ GET /super-admin/dashboard 200 in 84ms (next.js: 25ms, application-code: 59ms)
+ GET /super-admin/dashboard 200 in 934ms (next.js: 19ms, application-code: 915ms)
+ GET /super-admin/dashboard 200 in 824ms (next.js: 26ms, application-code: 799ms)
+ GET /super-admin/dashboard 200 in 62ms (next.js: 24ms, application-code: 38ms)
+ GET /super-admin/dashboard 200 in 178ms (next.js: 29ms, application-code: 149ms)
+ GET /super-admin/dashboard 200 in 910ms (next.js: 37ms, application-code: 874ms)
+ GET /super-admin/dashboard 200 in 54ms (next.js: 19ms, application-code: 35ms)
+ GET /super-admin/dashboard 200 in 862ms (next.js: 31ms, application-code: 832ms)
+ GET /super-admin/dashboard 200 in 178ms (next.js: 26ms, application-code: 153ms)
+ GET /super-admin/dashboard 200 in 865ms (next.js: 19ms, application-code: 846ms)
+ GET /super-admin/dashboard 200 in 81ms (next.js: 34ms, application-code: 48ms)
+ GET /super-admin/dashboard 200 in 874ms (next.js: 30ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 212ms (next.js: 41ms, application-code: 171ms)
+ GET /super-admin/dashboard 200 in 937ms (next.js: 23ms, application-code: 915ms)
+ GET /super-admin/dashboard 200 in 804ms (next.js: 25ms, application-code: 779ms)
+ GET /super-admin/dashboard 200 in 60ms (next.js: 22ms, application-code: 37ms)
+ GET /super-admin/dashboard 200 in 182ms (next.js: 143ms, application-code: 39ms)
+ GET /super-admin/dashboard 200 in 1012ms (next.js: 19ms, application-code: 993ms)
+ GET /super-admin/dashboard 200 in 60ms (next.js: 19ms, application-code: 42ms)
+ GET /super-admin/dashboard 200 in 81ms (next.js: 25ms, application-code: 56ms)
+ GET /super-admin/dashboard 200 in 989ms (next.js: 79ms, application-code: 909ms)
+ GET /super-admin/dashboard 200 in 917ms (next.js: 24ms, application-code: 893ms)
+ GET /super-admin/dashboard 200 in 62ms (next.js: 25ms, application-code: 37ms)
+ GET /super-admin/dashboard 200 in 107ms (next.js: 47ms, application-code: 61ms)
+ GET /super-admin/dashboard 200 in 954ms (next.js: 65ms, application-code: 890ms)
+ GET /super-admin/dashboard 200 in 88ms (next.js: 35ms, application-code: 53ms)
+ GET /super-admin/dashboard 200 in 876ms (next.js: 32ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 117ms (next.js: 37ms, application-code: 80ms)
+ GET /super-admin/dashboard 200 in 976ms (next.js: 20ms, application-code: 956ms)
+ GET /super-admin/dashboard 200 in 801ms (next.js: 28ms, application-code: 773ms)
+ GET /super-admin/dashboard 200 in 54ms (next.js: 19ms, application-code: 35ms)
+ GET /super-admin/dashboard 200 in 95ms (next.js: 27ms, application-code: 68ms)
+ GET /super-admin/dashboard 200 in 930ms (next.js: 25ms, application-code: 905ms)
+ GET /super-admin/dashboard 200 in 924ms (next.js: 43ms, application-code: 881ms)
+ GET /super-admin/dashboard 200 in 834ms (next.js: 23ms, application-code: 811ms)
+ GET /super-admin/dashboard 200 in 102ms (next.js: 35ms, application-code: 68ms)
+ GET /super-admin/dashboard 200 in 87ms (next.js: 32ms, application-code: 56ms)
+ GET /super-admin/dashboard 200 in 915ms (next.js: 39ms, application-code: 876ms)
+ GET /super-admin/dashboard 200 in 883ms (next.js: 23ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 56ms (next.js: 22ms, application-code: 34ms)
+ GET /super-admin/dashboard 200 in 98ms (next.js: 34ms, application-code: 63ms)
+ GET /super-admin/dashboard 200 in 65ms (next.js: 21ms, application-code: 44ms)
+ GET /super-admin/dashboard 200 in 868ms (next.js: 29ms, application-code: 840ms)
+ GET /super-admin/dashboard 200 in 147ms (next.js: 43ms, application-code: 103ms)
+ GET /super-admin/dashboard 200 in 948ms (next.js: 20ms, application-code: 929ms)
+ GET /super-admin/dashboard 200 in 806ms (next.js: 33ms, application-code: 773ms)
+ GET /super-admin/dashboard 200 in 65ms (next.js: 28ms, application-code: 37ms)
+ GET /super-admin/dashboard 200 in 84ms (next.js: 23ms, application-code: 61ms)
+ GET /super-admin/dashboard 200 in 1006ms (next.js: 22ms, application-code: 984ms)
+ GET /super-admin/dashboard 200 in 870ms (next.js: 62ms, application-code: 808ms)
+ GET /super-admin/dashboard 200 in 122ms (next.js: 66ms, application-code: 56ms)
+ GET /super-admin/dashboard 200 in 904ms (next.js: 37ms, application-code: 867ms)
+ GET /super-admin/dashboard 200 in 74ms (next.js: 26ms, application-code: 48ms)
+ GET /super-admin/dashboard 200 in 810ms (next.js: 33ms, application-code: 777ms)
+ GET /super-admin/dashboard 200 in 49ms (next.js: 18ms, application-code: 31ms)
+ GET /super-admin/dashboard 200 in 838ms (next.js: 53ms, application-code: 785ms)
+ GET /super-admin/dashboard 200 in 62ms (next.js: 21ms, application-code: 41ms)
+ GET /super-admin/dashboard 200 in 69ms (next.js: 19ms, application-code: 50ms)
+ GET /super-admin/dashboard 200 in 838ms (next.js: 38ms, application-code: 799ms)
+ GET /super-admin/dashboard 200 in 166ms (next.js: 46ms, application-code: 120ms)
+ GET /super-admin/dashboard 200 in 965ms (next.js: 45ms, application-code: 920ms)
+ GET /super-admin/dashboard 200 in 65ms (next.js: 19ms, application-code: 47ms)
+ GET /super-admin/dashboard 200 in 910ms (next.js: 22ms, application-code: 888ms)
+ GET /super-admin/dashboard 200 in 809ms (next.js: 17ms, application-code: 792ms)
+ GET /super-admin/dashboard 200 in 56ms (next.js: 24ms, application-code: 32ms)
+ GET /super-admin/dashboard 200 in 96ms (next.js: 34ms, application-code: 63ms)
+ GET /super-admin/dashboard 200 in 919ms (next.js: 58ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 71ms (next.js: 22ms, application-code: 50ms)
+ GET /super-admin/dashboard 200 in 891ms (next.js: 27ms, application-code: 864ms)
+ GET /super-admin/dashboard 200 in 810ms (next.js: 30ms, application-code: 780ms)
+ GET /super-admin/dashboard 200 in 66ms (next.js: 21ms, application-code: 46ms)
+ GET /super-admin/dashboard 200 in 65ms (next.js: 21ms, application-code: 44ms)
+ GET /super-admin/dashboard 200 in 914ms (next.js: 23ms, application-code: 891ms)
+ GET /super-admin/dashboard 200 in 46ms (next.js: 16ms, application-code: 30ms)
+ GET /super-admin/dashboard 200 in 100ms (next.js: 20ms, application-code: 79ms)
+ GET /super-admin/dashboard 200 in 985ms (next.js: 24ms, application-code: 961ms)
+ GET /super-admin/dashboard 200 in 870ms (next.js: 38ms, application-code: 832ms)
+ GET /super-admin/dashboard 200 in 50ms (next.js: 18ms, application-code: 32ms)
+ GET /super-admin/dashboard 200 in 79ms (next.js: 25ms, application-code: 54ms)
+ GET /super-admin/dashboard 200 in 928ms (next.js: 22ms, application-code: 906ms)
+ GET /super-admin/dashboard 200 in 828ms (next.js: 18ms, application-code: 809ms)
+ GET /super-admin/dashboard 200 in 39ms (next.js: 15ms, application-code: 23ms)
+ GET /super-admin/dashboard 200 in 150ms (next.js: 19ms, application-code: 131ms)
+ GET /super-admin/dashboard 200 in 907ms (next.js: 60ms, application-code: 847ms)
+ GET /super-admin/dashboard 200 in 859ms (next.js: 23ms, application-code: 836ms)
+ GET /super-admin/dashboard 200 in 108ms (next.js: 53ms, application-code: 55ms)
+ GET /super-admin/dashboard 200 in 84ms (next.js: 33ms, application-code: 51ms)
+ GET /super-admin/dashboard 200 in 867ms (next.js: 26ms, application-code: 841ms)
+ GET /super-admin/dashboard 200 in 875ms (next.js: 17ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 46ms (next.js: 18ms, application-code: 28ms)
+ GET /super-admin/dashboard 200 in 888ms (next.js: 45ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 67ms (next.js: 19ms, application-code: 48ms)
+ GET /super-admin/dashboard 200 in 880ms (next.js: 18ms, application-code: 863ms)
+ GET /super-admin/dashboard 200 in 43ms (next.js: 14ms, application-code: 29ms)
+ GET /super-admin/dashboard 200 in 64ms (next.js: 18ms, application-code: 46ms)
+ GET /super-admin/dashboard 200 in 860ms (next.js: 34ms, application-code: 826ms)
+ GET /super-admin/dashboard 200 in 57ms (next.js: 17ms, application-code: 40ms)
+ GET /super-admin/dashboard 200 in 823ms (next.js: 20ms, application-code: 802ms)
+ GET /super-admin/dashboard 200 in 67ms (next.js: 20ms, application-code: 47ms)
+ GET /super-admin/dashboard 200 in 852ms (next.js: 20ms, application-code: 832ms)
+ GET /super-admin/dashboard 200 in 806ms (next.js: 17ms, application-code: 789ms)
+ GET /super-admin/dashboard 200 in 47ms (next.js: 17ms, application-code: 29ms)
+ GET /super-admin/dashboard 200 in 128ms (next.js: 19ms, application-code: 109ms)
+ GET /super-admin/dashboard 200 in 906ms (next.js: 23ms, application-code: 883ms)
+ GET /super-admin/dashboard 200 in 815ms (next.js: 20ms, application-code: 795ms)
+ GET /super-admin/dashboard 200 in 69ms (next.js: 32ms, application-code: 37ms)
+ GET /super-admin/dashboard 200 in 87ms (next.js: 31ms, application-code: 56ms)
+ GET /super-admin/dashboard 200 in 895ms (next.js: 23ms, application-code: 872ms)
+ GET /super-admin/dashboard 200 in 888ms (next.js: 22ms, application-code: 866ms)
+ GET /super-admin/dashboard 200 in 43ms (next.js: 16ms, application-code: 26ms)
+ GET /super-admin/dashboard 200 in 69ms (next.js: 20ms, application-code: 49ms)
+ GET /super-admin/dashboard 200 in 884ms (next.js: 48ms, application-code: 835ms)
+ GET /super-admin/dashboard 200 in 861ms (next.js: 20ms, application-code: 840ms)
+ GET /super-admin/dashboard 200 in 35ms (next.js: 15ms, application-code: 20ms)
+ GET /super-admin/dashboard 200 in 84ms (next.js: 20ms, application-code: 64ms)
+ GET /super-admin/dashboard 200 in 879ms (next.js: 29ms, application-code: 850ms)
+ GET /super-admin/dashboard 200 in 911ms (next.js: 19ms, application-code: 892ms)
+ GET /super-admin/dashboard 200 in 68ms (next.js: 26ms, application-code: 42ms)
+ GET /super-admin/dashboard 200 in 95ms (next.js: 40ms, application-code: 55ms)
+ GET /super-admin/dashboard 200 in 846ms (next.js: 17ms, application-code: 829ms)
+ GET /super-admin/dashboard 200 in 949ms (next.js: 25ms, application-code: 924ms)
+ GET /super-admin/dashboard 200 in 820ms (next.js: 29ms, application-code: 791ms)
+ GET /super-admin/dashboard 200 in 65ms (next.js: 33ms, application-code: 32ms)
+ GET /super-admin/dashboard 200 in 62ms (next.js: 19ms, application-code: 43ms)
+ GET /super-admin/dashboard 200 in 881ms (next.js: 24ms, application-code: 857ms)
+ GET /super-admin/dashboard 200 in 64ms (next.js: 18ms, application-code: 46ms)
+ GET /super-admin/dashboard 200 in 66ms (next.js: 18ms, application-code: 48ms)
+ GET /super-admin/dashboard 200 in 962ms (next.js: 54ms, application-code: 908ms)
+ GET /super-admin/dashboard 200 in 836ms (next.js: 17ms, application-code: 820ms)
+ GET /super-admin/dashboard 200 in 48ms (next.js: 19ms, application-code: 28ms)
+ GET /super-admin/dashboard 200 in 101ms (next.js: 33ms, application-code: 68ms)
+ GET /super-admin/dashboard 200 in 895ms (next.js: 21ms, application-code: 874ms)
+ GET /super-admin/dashboard 200 in 803ms (next.js: 20ms, application-code: 783ms)
+ GET /super-admin/dashboard 200 in 41ms (next.js: 16ms, application-code: 25ms)
+ GET /super-admin/dashboard 200 in 57ms (next.js: 16ms, application-code: 41ms)
+ GET /super-admin/dashboard 200 in 856ms (next.js: 26ms, application-code: 830ms)
+ GET /super-admin/dashboard 200 in 837ms (next.js: 41ms, application-code: 796ms)
+ GET /super-admin/dashboard 200 in 46ms (next.js: 17ms, application-code: 29ms)
+ GET /super-admin/dashboard 200 in 64ms (next.js: 20ms, application-code: 44ms)
+ GET /super-admin/dashboard 200 in 847ms (next.js: 39ms, application-code: 808ms)
+ GET /super-admin/dashboard 200 in 49ms (next.js: 17ms, application-code: 31ms)
+ GET /super-admin/dashboard 200 in 796ms (next.js: 19ms, application-code: 777ms)
+ GET /super-admin/dashboard 200 in 128ms (next.js: 33ms, application-code: 95ms)
+ GET /super-admin/dashboard 200 in 823ms (next.js: 21ms, application-code: 801ms)
+ GET /super-admin/dashboard 200 in 60ms (next.js: 21ms, application-code: 39ms)
+ GET /super-admin/dashboard 200 in 829ms (next.js: 17ms, application-code: 812ms)
+ GET /super-admin/dashboard 200 in 271ms (next.js: 49ms, application-code: 222ms)
+ GET /super-admin/dashboard 200 in 950ms (next.js: 23ms, application-code: 927ms)
+ GET /super-admin/dashboard 200 in 857ms (next.js: 18ms, application-code: 840ms)
+ GET /super-admin/dashboard 200 in 49ms (next.js: 17ms, application-code: 32ms)
+ GET /super-admin/dashboard 200 in 193ms (next.js: 36ms, application-code: 157ms)
+ GET /super-admin/dashboard 200 in 1077ms (next.js: 55ms, application-code: 1022ms)
+ GET /super-admin/dashboard 200 in 960ms (next.js: 17ms, application-code: 943ms)
+ GET /super-admin/dashboard 200 in 45ms (next.js: 16ms, application-code: 30ms)
+ GET /super-admin/dashboard 200 in 939ms (next.js: 123ms, application-code: 816ms)
+ GET /super-admin/dashboard 200 in 87ms (next.js: 28ms, application-code: 59ms)
+ GET /super-admin/dashboard 200 in 986ms (next.js: 21ms, application-code: 966ms)
+ GET /super-admin/dashboard 200 in 829ms (next.js: 26ms, application-code: 803ms)
+ GET /super-admin/dashboard 200 in 66ms (next.js: 32ms, application-code: 33ms)
+ GET /super-admin/dashboard 200 in 138ms (next.js: 24ms, application-code: 114ms)
+ GET /super-admin/dashboard 200 in 919ms (next.js: 27ms, application-code: 892ms)
+ GET /super-admin/dashboard 200 in 801ms (next.js: 36ms, application-code: 765ms)
+ GET /super-admin/dashboard 200 in 49ms (next.js: 26ms, application-code: 24ms)
+ GET /super-admin/dashboard 200 in 74ms (next.js: 22ms, application-code: 52ms)
+ GET /super-admin/dashboard 200 in 835ms (next.js: 24ms, application-code: 811ms)
+ GET /super-admin/dashboard 200 in 43ms (next.js: 17ms, application-code: 26ms)
+ GET /super-admin/dashboard 200 in 134ms (next.js: 19ms, application-code: 115ms)
+ GET /super-admin/dashboard 200 in 870ms (next.js: 50ms, application-code: 820ms)
+ GET /super-admin/dashboard 200 in 962ms (next.js: 27ms, application-code: 935ms)
+ GET /super-admin/dashboard 200 in 82ms (next.js: 33ms, application-code: 49ms)
+ GET /super-admin/dashboard 200 in 891ms (next.js: 24ms, application-code: 867ms)
+ GET /super-admin/dashboard 200 in 807ms (next.js: 21ms, application-code: 786ms)
+ GET /super-admin/dashboard 200 in 208ms (next.js: 34ms, application-code: 174ms)
+ GET /super-admin/dashboard 200 in 848ms (next.js: 41ms, application-code: 807ms)
+ GET /super-admin/dashboard 200 in 69ms (next.js: 28ms, application-code: 41ms)
+ GET /super-admin/dashboard 200 in 892ms (next.js: 37ms, application-code: 855ms)
+ GET /super-admin/dashboard 200 in 195ms (next.js: 77ms, application-code: 118ms)
+ GET /super-admin/dashboard 200 in 1008ms (next.js: 92ms, application-code: 916ms)
+ GET /super-admin/dashboard 200 in 981ms (next.js: 20ms, application-code: 961ms)
+ GET /super-admin/dashboard 200 in 50ms (next.js: 18ms, application-code: 32ms)
+ GET /super-admin/dashboard 200 in 63ms (next.js: 26ms, application-code: 37ms)
+ GET /super-admin/dashboard 200 in 1328ms (next.js: 205ms, application-code: 1123ms)
+ GET /super-admin/dashboard 200 in 967ms (next.js: 38ms, application-code: 929ms)
+ GET /super-admin/dashboard 200 in 65ms (next.js: 26ms, application-code: 39ms)
+ GET /super-admin/dashboard 200 in 122ms (next.js: 38ms, application-code: 84ms)
+ GET /super-admin/dashboard 200 in 1073ms (next.js: 28ms, application-code: 1045ms)
+ GET /super-admin/dashboard 200 in 924ms (next.js: 62ms, application-code: 863ms)
+ GET /super-admin/dashboard 200 in 45ms (next.js: 17ms, application-code: 28ms)
+ GET /super-admin/dashboard 200 in 67ms (next.js: 20ms, application-code: 47ms)
+ GET /super-admin/dashboard 200 in 65ms (next.js: 21ms, application-code: 44ms)
+ GET /super-admin/dashboard 200 in 54ms (next.js: 24ms, application-code: 30ms)
+ GET /super-admin/dashboard 200 in 985ms (next.js: 40ms, application-code: 944ms)
+ GET /super-admin/dashboard 200 in 948ms (next.js: 26ms, application-code: 922ms)
+ GET /super-admin/dashboard 200 in 51ms (next.js: 19ms, application-code: 32ms)
+ GET /super-admin/dashboard 200 in 807ms (next.js: 25ms, application-code: 782ms)
+ GET /super-admin/dashboard 200 in 160ms (next.js: 19ms, application-code: 140ms)
+ GET /super-admin/dashboard 200 in 905ms (next.js: 21ms, application-code: 884ms)
+ GET /super-admin/dashboard 200 in 80ms (next.js: 29ms, application-code: 51ms)
+ GET /super-admin/dashboard 200 in 63ms (next.js: 28ms, application-code: 35ms)
+ GET /super-admin/dashboard 200 in 994ms (next.js: 27ms, application-code: 968ms)
+ GET /super-admin/dashboard 200 in 852ms (next.js: 20ms, application-code: 832ms)
+ GET /super-admin/dashboard 200 in 53ms (next.js: 18ms, application-code: 34ms)
+ GET /super-admin/dashboard 200 in 856ms (next.js: 58ms, application-code: 798ms)
+ GET /super-admin/dashboard 200 in 80ms (next.js: 31ms, application-code: 49ms)
+ GET /super-admin/dashboard 200 in 883ms (next.js: 24ms, application-code: 859ms)
+ GET /super-admin/dashboard 200 in 47ms (next.js: 17ms, application-code: 30ms)
+ GET /super-admin/dashboard 200 in 94ms (next.js: 20ms, application-code: 75ms)
+ GET /super-admin/dashboard 200 in 854ms (next.js: 25ms, application-code: 830ms)
+ GET /super-admin/dashboard 200 in 920ms (next.js: 27ms, application-code: 893ms)
+ GET /super-admin/dashboard 200 in 830ms (next.js: 26ms, application-code: 803ms)
+ GET /super-admin/dashboard 200 in 74ms (next.js: 23ms, application-code: 51ms)
+ GET /super-admin/dashboard 200 in 830ms (next.js: 18ms, application-code: 812ms)
+ GET /super-admin/dashboard 200 in 187ms (next.js: 133ms, application-code: 54ms)
+ GET /super-admin/dashboard 200 in 50ms (next.js: 21ms, application-code: 29ms)
+ GET /super-admin/dashboard 200 in 73ms (next.js: 27ms, application-code: 46ms)
+ GET /super-admin/dashboard 200 in 934ms (next.js: 85ms, application-code: 849ms)
+ GET /super-admin/dashboard 200 in 1077ms (next.js: 24ms, application-code: 1053ms)
+ GET /super-admin/admin 200 in 6.8s (next.js: 6.4s, application-code: 356ms)
+ GET /super-admin/dashboard 200 in 889ms (next.js: 35ms, application-code: 854ms)
+ GET /super-admin/dashboard 200 in 907ms (next.js: 46ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 861ms (next.js: 51ms, application-code: 811ms)
+ GET /super-admin/dashboard 200 in 829ms (next.js: 18ms, application-code: 811ms)
+ GET /super-admin/dashboard 200 in 893ms (next.js: 19ms, application-code: 875ms)
+ GET /super-admin/dashboard 200 in 852ms (next.js: 32ms, application-code: 820ms)
+ GET /super-admin/dashboard 200 in 876ms (next.js: 30ms, application-code: 847ms)
+ GET /super-admin/dashboard 200 in 843ms (next.js: 20ms, application-code: 823ms)
+ GET /super-admin/dashboard 200 in 807ms (next.js: 17ms, application-code: 789ms)
+ GET /super-admin/dashboard 200 in 849ms (next.js: 20ms, application-code: 829ms)
+ GET /super-admin/dashboard 200 in 858ms (next.js: 33ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 793ms (next.js: 19ms, application-code: 774ms)
+ GET /super-admin/dashboard 200 in 812ms (next.js: 37ms, application-code: 775ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 25ms, application-code: 808ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 19ms, application-code: 813ms)
+ GET /super-admin/dashboard 200 in 845ms (next.js: 18ms, application-code: 827ms)
+ GET /super-admin/dashboard 200 in 775ms (next.js: 16ms, application-code: 759ms)
+ GET /super-admin/dashboard 200 in 877ms (next.js: 26ms, application-code: 852ms)
+ GET /super-admin/dashboard 200 in 961ms (next.js: 21ms, application-code: 940ms)
+ GET /super-admin/dashboard 200 in 844ms (next.js: 19ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 854ms (next.js: 30ms, application-code: 824ms)
+ GET /super-admin/dashboard 200 in 814ms (next.js: 32ms, application-code: 782ms)
+ GET /super-admin/dashboard 200 in 818ms (next.js: 17ms, application-code: 801ms)
+ GET /super-admin/dashboard 200 in 818ms (next.js: 22ms, application-code: 795ms)
+ GET /super-admin/dashboard 200 in 838ms (next.js: 21ms, application-code: 817ms)
+ GET /super-admin/dashboard 200 in 815ms (next.js: 17ms, application-code: 798ms)
+ GET /super-admin/dashboard 200 in 817ms (next.js: 15ms, application-code: 802ms)
+ GET /super-admin/dashboard 200 in 835ms (next.js: 19ms, application-code: 816ms)
+ GET /super-admin/dashboard 200 in 828ms (next.js: 20ms, application-code: 808ms)
+ GET /super-admin/dashboard 200 in 847ms (next.js: 23ms, application-code: 824ms)
+ GET /super-admin/dashboard 200 in 814ms (next.js: 20ms, application-code: 793ms)
+ GET /super-admin/dashboard 200 in 782ms (next.js: 15ms, application-code: 767ms)
+ GET /super-admin/dashboard 200 in 821ms (next.js: 17ms, application-code: 803ms)
+ GET /super-admin/dashboard 200 in 783ms (next.js: 15ms, application-code: 768ms)
+ GET /super-admin/dashboard 200 in 812ms (next.js: 33ms, application-code: 779ms)
+ GET /super-admin/dashboard 200 in 838ms (next.js: 20ms, application-code: 817ms)
+ GET /super-admin/dashboard 200 in 867ms (next.js: 18ms, application-code: 848ms)
+ GET /super-admin/dashboard 200 in 850ms (next.js: 19ms, application-code: 831ms)
+ GET /super-admin/dashboard 200 in 811ms (next.js: 18ms, application-code: 792ms)
+ GET /super-admin/dashboard 200 in 793ms (next.js: 21ms, application-code: 772ms)
+ GET /super-admin/dashboard 200 in 944ms (next.js: 29ms, application-code: 915ms)
+ GET /super-admin/dashboard 200 in 841ms (next.js: 29ms, application-code: 812ms)
+ GET /super-admin/dashboard 200 in 895ms (next.js: 18ms, application-code: 877ms)
+ GET /super-admin/dashboard 200 in 886ms (next.js: 29ms, application-code: 857ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 24ms, application-code: 809ms)
+ GET /super-admin/dashboard 200 in 883ms (next.js: 20ms, application-code: 864ms)
+ GET /super-admin/dashboard 200 in 929ms (next.js: 20ms, application-code: 909ms)
+ GET /super-admin/dashboard 200 in 880ms (next.js: 21ms, application-code: 859ms)
+ GET /super-admin/dashboard 200 in 893ms (next.js: 25ms, application-code: 868ms)
+ GET /super-admin/dashboard 200 in 818ms (next.js: 33ms, application-code: 785ms)
+ GET /super-admin/dashboard 200 in 841ms (next.js: 22ms, application-code: 819ms)
+ GET /super-admin/dashboard 200 in 846ms (next.js: 21ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 923ms (next.js: 20ms, application-code: 903ms)
+ GET /super-admin/dashboard 200 in 814ms (next.js: 19ms, application-code: 795ms)
+ GET /super-admin/dashboard 200 in 838ms (next.js: 17ms, application-code: 821ms)
+ GET /super-admin/dashboard 200 in 992ms (next.js: 19ms, application-code: 973ms)
+ GET /super-admin/dashboard 200 in 909ms (next.js: 27ms, application-code: 882ms)
+ GET /super-admin/dashboard 200 in 876ms (next.js: 58ms, application-code: 818ms)
+ GET /super-admin/dashboard 200 in 815ms (next.js: 26ms, application-code: 790ms)
+ GET /super-admin/dashboard 200 in 840ms (next.js: 22ms, application-code: 818ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 19ms, application-code: 814ms)
+ GET /super-admin/dashboard 200 in 865ms (next.js: 32ms, application-code: 833ms)
+ GET /super-admin/dashboard 200 in 889ms (next.js: 20ms, application-code: 869ms)
+ GET /super-admin/dashboard 200 in 875ms (next.js: 20ms, application-code: 855ms)
+ GET /super-admin/dashboard 200 in 932ms (next.js: 31ms, application-code: 902ms)
+ GET /super-admin/dashboard 200 in 873ms (next.js: 21ms, application-code: 852ms)
+ GET /super-admin/dashboard 200 in 908ms (next.js: 23ms, application-code: 885ms)
+ GET /super-admin/dashboard 200 in 851ms (next.js: 20ms, application-code: 831ms)
+ GET /super-admin/dashboard 200 in 915ms (next.js: 23ms, application-code: 892ms)
+ GET /super-admin/dashboard 200 in 875ms (next.js: 33ms, application-code: 842ms)
+ GET /super-admin/dashboard 200 in 802ms (next.js: 23ms, application-code: 779ms)
+ GET /super-admin/dashboard 200 in 873ms (next.js: 17ms, application-code: 856ms)
+ GET /super-admin/dashboard 200 in 929ms (next.js: 21ms, application-code: 908ms)
+ GET /super-admin/dashboard 200 in 910ms (next.js: 31ms, application-code: 879ms)
+ GET /super-admin/dashboard 200 in 943ms (next.js: 25ms, application-code: 918ms)
+ GET /super-admin/dashboard 200 in 862ms (next.js: 21ms, application-code: 841ms)
+ GET /super-admin/dashboard 200 in 920ms (next.js: 21ms, application-code: 899ms)
+ GET /super-admin/dashboard 200 in 888ms (next.js: 22ms, application-code: 866ms)
+ GET /super-admin/dashboard 200 in 923ms (next.js: 19ms, application-code: 904ms)
+ GET /super-admin/dashboard 200 in 903ms (next.js: 39ms, application-code: 864ms)
+ GET /super-admin/dashboard 200 in 929ms (next.js: 18ms, application-code: 911ms)
+ GET /super-admin/dashboard 200 in 889ms (next.js: 23ms, application-code: 866ms)
+ GET /super-admin/dashboard 200 in 914ms (next.js: 24ms, application-code: 890ms)
+ GET /super-admin/dashboard 200 in 856ms (next.js: 21ms, application-code: 835ms)
+ GET /super-admin/dashboard 200 in 868ms (next.js: 19ms, application-code: 849ms)
+ GET /super-admin/dashboard 200 in 811ms (next.js: 30ms, application-code: 781ms)
+ GET /super-admin/dashboard 200 in 796ms (next.js: 21ms, application-code: 775ms)
+ GET /super-admin/dashboard 200 in 804ms (next.js: 22ms, application-code: 781ms)
+ GET /super-admin/dashboard 200 in 856ms (next.js: 19ms, application-code: 837ms)
+ GET /super-admin/dashboard 200 in 846ms (next.js: 22ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 897ms (next.js: 20ms, application-code: 876ms)
+ GET /super-admin/dashboard 200 in 874ms (next.js: 21ms, application-code: 853ms)
+ GET /super-admin/dashboard 200 in 932ms (next.js: 22ms, application-code: 910ms)
+ GET /super-admin/dashboard 200 in 873ms (next.js: 22ms, application-code: 851ms)
+ GET /super-admin/dashboard 200 in 917ms (next.js: 21ms, application-code: 895ms)
+ GET /super-admin/dashboard 200 in 907ms (next.js: 21ms, application-code: 886ms)
+ GET /super-admin/dashboard 200 in 978ms (next.js: 23ms, application-code: 955ms)
+ GET /super-admin/dashboard 200 in 845ms (next.js: 21ms, application-code: 824ms)
+ GET /super-admin/dashboard 200 in 854ms (next.js: 23ms, application-code: 831ms)
+ GET /super-admin/dashboard 200 in 921ms (next.js: 25ms, application-code: 896ms)
+ GET /super-admin/dashboard 200 in 844ms (next.js: 46ms, application-code: 798ms)
+ GET /super-admin/dashboard 200 in 860ms (next.js: 33ms, application-code: 826ms)
+ GET /super-admin/dashboard 200 in 850ms (next.js: 42ms, application-code: 808ms)
+ GET /super-admin/dashboard 200 in 815ms (next.js: 17ms, application-code: 798ms)
+ GET /super-admin/dashboard 200 in 808ms (next.js: 21ms, application-code: 788ms)
+ GET /super-admin/dashboard 200 in 882ms (next.js: 20ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 896ms (next.js: 25ms, application-code: 872ms)
+ GET /super-admin/dashboard 200 in 1072ms (next.js: 22ms, application-code: 1050ms)
+ GET /super-admin/dashboard 200 in 943ms (next.js: 18ms, application-code: 925ms)
+ GET /super-admin/dashboard 200 in 1318ms (next.js: 20ms, application-code: 1298ms)
+ GET /super-admin/dashboard 200 in 1214ms (next.js: 33ms, application-code: 1181ms)
+ GET /super-admin/dashboard 200 in 1583ms (next.js: 117ms, application-code: 1466ms)
+ GET /super-admin/dashboard 200 in 1241ms (next.js: 30ms, application-code: 1211ms)
+ GET /super-admin/dashboard 200 in 1047ms (next.js: 37ms, application-code: 1010ms)
+ GET /super-admin/dashboard 200 in 1215ms (next.js: 132ms, application-code: 1083ms)
+ GET /super-admin/dashboard 200 in 1207ms (next.js: 75ms, application-code: 1132ms)
+ GET /super-admin/dashboard 200 in 1040ms (next.js: 32ms, application-code: 1009ms)
+ GET /super-admin/dashboard 200 in 981ms (next.js: 51ms, application-code: 930ms)
+ GET /super-admin/dashboard 200 in 1320ms (next.js: 88ms, application-code: 1233ms)
+ GET /super-admin/dashboard 200 in 1115ms (next.js: 75ms, application-code: 1040ms)
+ GET /super-admin/dashboard 200 in 1164ms (next.js: 77ms, application-code: 1087ms)
+ GET /super-admin/dashboard 200 in 1136ms (next.js: 86ms, application-code: 1050ms)
+ GET /super-admin/dashboard 200 in 1214ms (next.js: 86ms, application-code: 1128ms)
+ GET /super-admin/dashboard 200 in 1555ms (next.js: 53ms, application-code: 1502ms)
+ GET /super-admin/dashboard 200 in 1206ms (next.js: 85ms, application-code: 1122ms)
+ GET /super-admin/dashboard 200 in 1149ms (next.js: 73ms, application-code: 1077ms)
+ GET /super-admin/dashboard 200 in 1279ms (next.js: 115ms, application-code: 1164ms)
+ GET /super-admin/dashboard 200 in 1338ms (next.js: 79ms, application-code: 1258ms)
+○ Compiling /[role]/students ...
+ GET /super-admin/dashboard 200 in 1888ms (next.js: 158ms, application-code: 1730ms)
+ GET /super-admin/dashboard 200 in 2.8s (next.js: 71ms, application-code: 2.7s)
+ GET /super-admin/dashboard 200 in 2.4s (next.js: 129ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 1596ms (next.js: 65ms, application-code: 1530ms)
+ GET /super-admin/dashboard 200 in 1574ms (next.js: 247ms, application-code: 1328ms)
+ GET /super-admin/dashboard 200 in 1535ms (next.js: 111ms, application-code: 1424ms)
+ GET /super-admin/dashboard 200 in 1116ms (next.js: 41ms, application-code: 1075ms)
+ GET /super-admin/dashboard 200 in 1615ms (next.js: 86ms, application-code: 1529ms)
+ GET /super-admin/dashboard 200 in 1470ms (next.js: 51ms, application-code: 1419ms)
+ GET /super-admin/dashboard 200 in 1626ms (next.js: 50ms, application-code: 1576ms)
+ GET /super-admin/dashboard 200 in 1077ms (next.js: 64ms, application-code: 1013ms)
+ GET /super-admin/dashboard 200 in 1576ms (next.js: 75ms, application-code: 1501ms)
+ GET /super-admin/dashboard 200 in 1108ms (next.js: 106ms, application-code: 1002ms)
+ GET /super-admin/dashboard 200 in 1190ms (next.js: 126ms, application-code: 1064ms)
+ GET /super-admin/dashboard 200 in 1749ms (next.js: 55ms, application-code: 1694ms)
+ GET /super-admin/dashboard 200 in 2.3s (next.js: 157ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 1808ms (next.js: 197ms, application-code: 1611ms)
+ GET /super-admin/dashboard 200 in 1670ms (next.js: 71ms, application-code: 1599ms)
+ GET /super-admin/dashboard 200 in 1696ms (next.js: 226ms, application-code: 1470ms)
+ GET /super-admin/students 200 in 16.9s (next.js: 15.5s, application-code: 1351ms)
+ GET /super-admin/dashboard 200 in 1674ms (next.js: 120ms, application-code: 1554ms)
+ GET /super-admin/dashboard 200 in 1536ms (next.js: 218ms, application-code: 1318ms)
+ GET /super-admin/dashboard 200 in 1482ms (next.js: 180ms, application-code: 1302ms)
+ GET /super-admin/dashboard 200 in 1063ms (next.js: 123ms, application-code: 940ms)
+ GET /super-admin/dashboard 200 in 1511ms (next.js: 83ms, application-code: 1428ms)
+ GET /super-admin/dashboard 200 in 1155ms (next.js: 107ms, application-code: 1048ms)
+ GET /super-admin/dashboard 200 in 1107ms (next.js: 63ms, application-code: 1044ms)
+ GET /super-admin/dashboard 200 in 1307ms (next.js: 94ms, application-code: 1212ms)
+ GET /super-admin/dashboard 200 in 1472ms (next.js: 128ms, application-code: 1344ms)
+ GET /super-admin/dashboard 200 in 1115ms (next.js: 74ms, application-code: 1041ms)
+ GET /super-admin/dashboard 200 in 1357ms (next.js: 72ms, application-code: 1285ms)
+ GET /super-admin/dashboard 200 in 1897ms (next.js: 120ms, application-code: 1777ms)
+ GET /super-admin/dashboard 200 in 1663ms (next.js: 186ms, application-code: 1476ms)
+ GET /super-admin/dashboard 200 in 1305ms (next.js: 119ms, application-code: 1185ms)
+ GET /super-admin/dashboard 200 in 1877ms (next.js: 102ms, application-code: 1774ms)
+ GET /super-admin/dashboard 200 in 1838ms (next.js: 432ms, application-code: 1406ms)
+ GET /super-admin/dashboard 200 in 1497ms (next.js: 74ms, application-code: 1423ms)
+ GET /super-admin/dashboard 200 in 1307ms (next.js: 193ms, application-code: 1113ms)
+ GET /super-admin/dashboard 200 in 1224ms (next.js: 117ms, application-code: 1108ms)
+ GET /super-admin/dashboard 200 in 1016ms (next.js: 25ms, application-code: 990ms)
+ GET /super-admin/dashboard 200 in 1021ms (next.js: 59ms, application-code: 962ms)
+ GET /super-admin/dashboard 200 in 1088ms (next.js: 52ms, application-code: 1036ms)
+ GET /super-admin/dashboard 200 in 967ms (next.js: 25ms, application-code: 943ms)
+ GET /super-admin/dashboard 200 in 993ms (next.js: 54ms, application-code: 939ms)
+ GET /super-admin/dashboard 200 in 883ms (next.js: 51ms, application-code: 832ms)
+ GET /super-admin/dashboard 200 in 900ms (next.js: 35ms, application-code: 866ms)
+ GET /super-admin/dashboard 200 in 874ms (next.js: 36ms, application-code: 838ms)
+ GET /super-admin/dashboard 200 in 1000ms (next.js: 24ms, application-code: 976ms)
+ GET /super-admin/dashboard 200 in 848ms (next.js: 23ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 863ms (next.js: 22ms, application-code: 841ms)
+ GET /super-admin/dashboard 200 in 925ms (next.js: 18ms, application-code: 907ms)
+ GET /super-admin/dashboard 200 in 935ms (next.js: 122ms, application-code: 814ms)
+ GET /super-admin/dashboard 200 in 804ms (next.js: 23ms, application-code: 780ms)
+ GET /super-admin/dashboard 200 in 878ms (next.js: 22ms, application-code: 856ms)
+ GET /super-admin/dashboard 200 in 872ms (next.js: 23ms, application-code: 848ms)
+ GET /super-admin/dashboard 200 in 925ms (next.js: 40ms, application-code: 885ms)
+ GET /super-admin/dashboard 200 in 867ms (next.js: 22ms, application-code: 845ms)
+ GET /super-admin/dashboard 200 in 880ms (next.js: 21ms, application-code: 859ms)
+ GET /super-admin/dashboard 200 in 928ms (next.js: 22ms, application-code: 906ms)
+ GET /super-admin/dashboard 200 in 946ms (next.js: 29ms, application-code: 917ms)
+ GET /super-admin/dashboard 200 in 1001ms (next.js: 35ms, application-code: 966ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 24ms, application-code: 809ms)
+ GET /super-admin/dashboard 200 in 1090ms (next.js: 33ms, application-code: 1057ms)
+ GET /super-admin/dashboard 200 in 937ms (next.js: 36ms, application-code: 902ms)
+ GET /super-admin/books 200 in 6.8s (next.js: 6.4s, application-code: 347ms)
+ GET /super-admin/dashboard 200 in 973ms (next.js: 53ms, application-code: 920ms)
+ GET /super-admin/dashboard 200 in 933ms (next.js: 27ms, application-code: 906ms)
+ GET /super-admin/dashboard 200 in 946ms (next.js: 56ms, application-code: 890ms)
+ GET /super-admin/dashboard 200 in 907ms (next.js: 56ms, application-code: 850ms)
+ GET /super-admin/dashboard 200 in 932ms (next.js: 27ms, application-code: 906ms)
+ GET /super-admin/dashboard 200 in 979ms (next.js: 21ms, application-code: 958ms)
+ GET /super-admin/dashboard 200 in 821ms (next.js: 35ms, application-code: 786ms)
+ GET /super-admin/dashboard 200 in 828ms (next.js: 22ms, application-code: 806ms)
+ GET /super-admin/dashboard 200 in 1408ms (next.js: 44ms, application-code: 1364ms)
+ GET /super-admin/dashboard 200 in 1601ms (next.js: 48ms, application-code: 1553ms)
+ GET /super-admin/dashboard 200 in 1552ms (next.js: 21ms, application-code: 1531ms)
+ GET /super-admin/dashboard 200 in 1732ms (next.js: 190ms, application-code: 1542ms)
+ GET /super-admin/dashboard 200 in 928ms (next.js: 39ms, application-code: 889ms)
+ GET /super-admin/dashboard 200 in 913ms (next.js: 32ms, application-code: 881ms)
+ GET /super-admin/dashboard 200 in 968ms (next.js: 23ms, application-code: 945ms)
+ GET /super-admin/dashboard 200 in 841ms (next.js: 27ms, application-code: 815ms)
+ GET /super-admin/dashboard 200 in 962ms (next.js: 30ms, application-code: 932ms)
+ GET /super-admin/dashboard 200 in 961ms (next.js: 29ms, application-code: 932ms)
+ GET /super-admin/dashboard 200 in 974ms (next.js: 29ms, application-code: 945ms)
+ GET /super-admin/dashboard 200 in 992ms (next.js: 30ms, application-code: 962ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 45ms, application-code: 788ms)
+ GET /super-admin/dashboard 200 in 877ms (next.js: 59ms, application-code: 818ms)
+ GET /super-admin/dashboard 200 in 819ms (next.js: 19ms, application-code: 800ms)
+ GET /super-admin/dashboard 200 in 980ms (next.js: 83ms, application-code: 897ms)
+ GET /super-admin/dashboard 200 in 1033ms (next.js: 28ms, application-code: 1005ms)
+ GET /super-admin/dashboard 200 in 904ms (next.js: 62ms, application-code: 843ms)
+ GET /super-admin/dashboard 200 in 1107ms (next.js: 17ms, application-code: 1090ms)
+ GET /super-admin/dashboard 200 in 964ms (next.js: 39ms, application-code: 925ms)
+ GET /super-admin/dashboard 200 in 867ms (next.js: 23ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 904ms (next.js: 50ms, application-code: 854ms)
+ GET /super-admin/dashboard 200 in 1048ms (next.js: 45ms, application-code: 1003ms)
+ GET /super-admin/dashboard 200 in 845ms (next.js: 22ms, application-code: 823ms)
+ GET /super-admin/dashboard 200 in 906ms (next.js: 20ms, application-code: 886ms)
+ GET /super-admin/dashboard 200 in 937ms (next.js: 22ms, application-code: 915ms)
+ GET /super-admin/dashboard 200 in 852ms (next.js: 37ms, application-code: 815ms)
+ GET /super-admin/dashboard 200 in 871ms (next.js: 28ms, application-code: 843ms)
+ GET /super-admin/dashboard 200 in 814ms (next.js: 23ms, application-code: 791ms)
+ GET /super-admin/dashboard 200 in 895ms (next.js: 20ms, application-code: 875ms)
+ GET /super-admin/dashboard 200 in 888ms (next.js: 27ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 817ms (next.js: 20ms, application-code: 797ms)
+ GET /super-admin/dashboard 200 in 912ms (next.js: 23ms, application-code: 889ms)
+ GET /super-admin/dashboard 200 in 939ms (next.js: 22ms, application-code: 917ms)
+ GET /super-admin/dashboard 200 in 902ms (next.js: 33ms, application-code: 869ms)
+ GET /super-admin/dashboard 200 in 970ms (next.js: 24ms, application-code: 946ms)
+ GET /super-admin/dashboard 200 in 916ms (next.js: 21ms, application-code: 896ms)
+ GET /super-admin/dashboard 200 in 825ms (next.js: 42ms, application-code: 783ms)
+ GET /super-admin/dashboard 200 in 959ms (next.js: 19ms, application-code: 941ms)
+ GET /super-admin/dashboard 200 in 836ms (next.js: 23ms, application-code: 813ms)
+ GET /super-admin/dashboard 200 in 1000ms (next.js: 23ms, application-code: 977ms)
+ GET /super-admin/dashboard 200 in 862ms (next.js: 32ms, application-code: 830ms)
+ GET /super-admin/dashboard 200 in 882ms (next.js: 23ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 883ms (next.js: 25ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 888ms (next.js: 22ms, application-code: 865ms)
+ GET /super-admin/dashboard 200 in 870ms (next.js: 28ms, application-code: 842ms)
+ GET /super-admin/dashboard 200 in 926ms (next.js: 50ms, application-code: 877ms)
+ GET /super-admin/dashboard 200 in 896ms (next.js: 34ms, application-code: 863ms)
+ GET /super-admin/dashboard 200 in 912ms (next.js: 19ms, application-code: 893ms)
+ GET /super-admin/dashboard 200 in 884ms (next.js: 24ms, application-code: 860ms)
+ GET /super-admin/dashboard 200 in 909ms (next.js: 22ms, application-code: 887ms)
+ GET /super-admin/dashboard 200 in 819ms (next.js: 22ms, application-code: 797ms)
+ GET /super-admin/dashboard 200 in 892ms (next.js: 35ms, application-code: 857ms)
+ GET /super-admin/dashboard 200 in 964ms (next.js: 30ms, application-code: 934ms)
+ GET /super-admin/dashboard 200 in 943ms (next.js: 19ms, application-code: 924ms)
+ GET /super-admin/dashboard 200 in 818ms (next.js: 21ms, application-code: 797ms)
+ GET /super-admin/dashboard 200 in 959ms (next.js: 19ms, application-code: 940ms)
+ GET /super-admin/dashboard 200 in 837ms (next.js: 19ms, application-code: 818ms)
+ GET /super-admin/dashboard 200 in 935ms (next.js: 25ms, application-code: 910ms)
+ GET /super-admin/dashboard 200 in 948ms (next.js: 32ms, application-code: 916ms)
+ GET /super-admin/dashboard 200 in 1044ms (next.js: 45ms, application-code: 999ms)
+ GET /super-admin/dashboard 200 in 898ms (next.js: 22ms, application-code: 876ms)
+ GET /super-admin/dashboard 200 in 1029ms (next.js: 24ms, application-code: 1005ms)
+ GET /super-admin/dashboard 200 in 1136ms (next.js: 23ms, application-code: 1113ms)
+ GET /super-admin/dashboard 200 in 962ms (next.js: 23ms, application-code: 939ms)
+ GET /super-admin/dashboard 200 in 1098ms (next.js: 59ms, application-code: 1039ms)
+ GET /super-admin/dashboard 200 in 929ms (next.js: 26ms, application-code: 903ms)
+ GET /super-admin/dashboard 200 in 994ms (next.js: 59ms, application-code: 934ms)
+ GET /super-admin/dashboard 200 in 1096ms (next.js: 56ms, application-code: 1040ms)
+ GET /super-admin/dashboard 200 in 898ms (next.js: 34ms, application-code: 865ms)
+ GET /super-admin/dashboard 200 in 939ms (next.js: 20ms, application-code: 918ms)
+ GET /super-admin/dashboard 200 in 903ms (next.js: 25ms, application-code: 878ms)
+ GET /super-admin/dashboard 200 in 984ms (next.js: 28ms, application-code: 956ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 41ms, application-code: 793ms)
+ GET /super-admin/dashboard 200 in 850ms (next.js: 25ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 826ms (next.js: 28ms, application-code: 798ms)
+ GET /super-admin/dashboard 200 in 983ms (next.js: 19ms, application-code: 963ms)
+ GET /super-admin/dashboard 200 in 882ms (next.js: 21ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 911ms (next.js: 38ms, application-code: 873ms)
+ GET /super-admin/dashboard 200 in 927ms (next.js: 42ms, application-code: 885ms)
+ GET /super-admin/dashboard 200 in 957ms (next.js: 28ms, application-code: 929ms)
+ GET /super-admin/dashboard 200 in 1049ms (next.js: 30ms, application-code: 1019ms)
+ GET /super-admin/dashboard 200 in 996ms (next.js: 30ms, application-code: 966ms)
+ GET /super-admin/dashboard 200 in 1243ms (next.js: 24ms, application-code: 1219ms)
+ GET /super-admin/dashboard 200 in 1045ms (next.js: 47ms, application-code: 999ms)
+ GET /super-admin/dashboard 200 in 1075ms (next.js: 61ms, application-code: 1014ms)
+ GET /super-admin/dashboard 200 in 1492ms (next.js: 124ms, application-code: 1368ms)
+ GET /super-admin/dashboard 200 in 1110ms (next.js: 60ms, application-code: 1050ms)
+ GET /super-admin/dashboard 200 in 1206ms (next.js: 180ms, application-code: 1025ms)
+ GET /super-admin/dashboard 200 in 1137ms (next.js: 90ms, application-code: 1047ms)
+ GET /super-admin/dashboard 200 in 1745ms (next.js: 65ms, application-code: 1680ms)
+ GET /super-admin/dashboard 200 in 2.4s (next.js: 230ms, application-code: 2.2s)
+ GET /super-admin/dashboard 200 in 1707ms (next.js: 332ms, application-code: 1375ms)
+ GET /super-admin/dashboard 200 in 2.7s (next.js: 109ms, application-code: 2.6s)
+○ Compiling /[role]/categories ...
+ GET /super-admin/dashboard 200 in 2.9s (next.js: 207ms, application-code: 2.7s)
+ GET /super-admin/dashboard 200 in 2.6s (next.js: 194ms, application-code: 2.4s)
+ GET /super-admin/dashboard 200 in 4.4s (next.js: 436ms, application-code: 3.9s)
+ GET /super-admin/dashboard 200 in 3.9s (next.js: 2.4s, application-code: 1512ms)
+ GET /super-admin/dashboard 200 in 1826ms (next.js: 170ms, application-code: 1656ms)
+ GET /super-admin/dashboard 200 in 1672ms (next.js: 245ms, application-code: 1426ms)
+ GET /super-admin/dashboard 200 in 1608ms (next.js: 116ms, application-code: 1493ms)
+ GET /super-admin/dashboard 200 in 1805ms (next.js: 290ms, application-code: 1515ms)
+ GET /super-admin/dashboard 200 in 1383ms (next.js: 219ms, application-code: 1164ms)
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 130ms, application-code: 2.0s)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 161ms, application-code: 1926ms)
+○ Compiling / ...
+ GET /super-admin/dashboard 200 in 2.4s (next.js: 136ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 2.5s (next.js: 381ms, application-code: 2.1s)
+ GET / 200 in 5.1s (next.js: 4.8s, application-code: 317ms)
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 131ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 1893ms (next.js: 196ms, application-code: 1697ms)
+ GET /super-admin/categories 200 in 21.4s (next.js: 21.0s, application-code: 420ms)
+ GET /super-admin/dashboard 200 in 1392ms (next.js: 167ms, application-code: 1225ms)
+ GET /super-admin/dashboard 200 in 1075ms (next.js: 122ms, application-code: 953ms)
+ GET /super-admin/dashboard 200 in 964ms (next.js: 68ms, application-code: 896ms)
+ GET /super-admin/dashboard 200 in 1089ms (next.js: 62ms, application-code: 1027ms)
+ GET /super-admin/dashboard 200 in 1004ms (next.js: 45ms, application-code: 959ms)
+ GET /super-admin/dashboard 200 in 956ms (next.js: 42ms, application-code: 914ms)
+ GET /super-admin/dashboard 200 in 999ms (next.js: 69ms, application-code: 930ms)
+ GET /super-admin/dashboard 200 in 971ms (next.js: 32ms, application-code: 939ms)
+ GET /super-admin/dashboard 200 in 987ms (next.js: 34ms, application-code: 953ms)
+ GET /login 200 in 468ms (next.js: 34ms, application-code: 434ms)
+ GET /super-admin/dashboard 200 in 1043ms (next.js: 45ms, application-code: 998ms)
+ GET /super-admin/dashboard 200 in 1146ms (next.js: 112ms, application-code: 1033ms)
+ GET /super-admin/dashboard 200 in 1082ms (next.js: 40ms, application-code: 1042ms)
+ GET /super-admin/dashboard 200 in 1048ms (next.js: 192ms, application-code: 856ms)
+ GET /super-admin/dashboard 200 in 1036ms (next.js: 35ms, application-code: 1001ms)
+ GET /super-admin/dashboard 200 in 999ms (next.js: 72ms, application-code: 926ms)
+ GET /super-admin/dashboard 200 in 999ms (next.js: 24ms, application-code: 975ms)
+ GET /super-admin/dashboard 200 in 867ms (next.js: 21ms, application-code: 845ms)
+ GET /super-admin/dashboard 200 in 993ms (next.js: 36ms, application-code: 957ms)
+ GET /super-admin/dashboard 200 in 823ms (next.js: 21ms, application-code: 802ms)
+ GET /super-admin/dashboard 200 in 975ms (next.js: 24ms, application-code: 950ms)
+ GET /super-admin/dashboard 200 in 988ms (next.js: 24ms, application-code: 964ms)
+ GET /super-admin/dashboard 200 in 851ms (next.js: 35ms, application-code: 816ms)
+ GET /super-admin/dashboard 200 in 884ms (next.js: 25ms, application-code: 859ms)
+ GET /super-admin/dashboard 200 in 988ms (next.js: 36ms, application-code: 952ms)
+ GET /super-admin/dashboard 200 in 852ms (next.js: 53ms, application-code: 799ms)
+ GET /super-admin/dashboard 200 in 1153ms (next.js: 71ms, application-code: 1082ms)
+ GET /super-admin/dashboard 200 in 920ms (next.js: 22ms, application-code: 897ms)
+ GET /super-admin/dashboard 200 in 1413ms (next.js: 37ms, application-code: 1376ms)
+ GET /super-admin/dashboard 200 in 1106ms (next.js: 74ms, application-code: 1032ms)
+ GET /super-admin/dashboard 200 in 1209ms (next.js: 37ms, application-code: 1173ms)
+ GET /super-admin/dashboard 200 in 1196ms (next.js: 260ms, application-code: 936ms)
+ GET /super-admin/dashboard 200 in 940ms (next.js: 27ms, application-code: 913ms)
+ GET /super-admin/dashboard 200 in 1016ms (next.js: 55ms, application-code: 961ms)
+ GET /super-admin/dashboard 200 in 893ms (next.js: 31ms, application-code: 862ms)
+ GET /super-admin/dashboard 200 in 1045ms (next.js: 24ms, application-code: 1021ms)
+ GET /super-admin/dashboard 200 in 863ms (next.js: 28ms, application-code: 836ms)
+ GET /super-admin/dashboard 200 in 963ms (next.js: 56ms, application-code: 907ms)
+ GET /super-admin/dashboard 200 in 835ms (next.js: 24ms, application-code: 811ms)
+ GET /super-admin/dashboard 200 in 937ms (next.js: 26ms, application-code: 910ms)
+ GET /super-admin/dashboard 200 in 1004ms (next.js: 44ms, application-code: 960ms)
+ GET /super-admin/dashboard 200 in 997ms (next.js: 29ms, application-code: 969ms)
+ GET /super-admin/dashboard 200 in 881ms (next.js: 23ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 888ms (next.js: 24ms, application-code: 864ms)
+ GET /super-admin/dashboard 200 in 1111ms (next.js: 46ms, application-code: 1065ms)
+ GET /super-admin/dashboard 200 in 1014ms (next.js: 46ms, application-code: 968ms)
+ GET /super-admin/dashboard 200 in 949ms (next.js: 29ms, application-code: 920ms)
+ GET /super-admin/dashboard 200 in 960ms (next.js: 31ms, application-code: 929ms)
+ GET /super-admin/dashboard 200 in 1014ms (next.js: 59ms, application-code: 955ms)
+ GET /super-admin/dashboard 200 in 1018ms (next.js: 31ms, application-code: 988ms)
+ GET /super-admin/dashboard 200 in 1036ms (next.js: 27ms, application-code: 1009ms)
+ GET /super-admin/dashboard 200 in 885ms (next.js: 26ms, application-code: 859ms)
+ GET /super-admin/dashboard 200 in 1192ms (next.js: 41ms, application-code: 1151ms)
+ GET /super-admin/dashboard 200 in 956ms (next.js: 37ms, application-code: 919ms)
+ GET /super-admin/loans 200 in 7.2s (next.js: 6.8s, application-code: 365ms)
+ GET /super-admin/dashboard 200 in 1088ms (next.js: 26ms, application-code: 1062ms)
+ GET /super-admin/dashboard 200 in 925ms (next.js: 37ms, application-code: 889ms)
+ GET /super-admin/dashboard 200 in 935ms (next.js: 39ms, application-code: 897ms)
+ GET /super-admin/dashboard 200 in 911ms (next.js: 27ms, application-code: 884ms)
+ GET /super-admin/dashboard 200 in 820ms (next.js: 29ms, application-code: 791ms)
+ GET /super-admin/dashboard 200 in 843ms (next.js: 24ms, application-code: 819ms)
+ GET /super-admin/dashboard 200 in 945ms (next.js: 24ms, application-code: 921ms)
+ GET /super-admin/dashboard 200 in 931ms (next.js: 54ms, application-code: 877ms)
+ GET /super-admin/dashboard 200 in 925ms (next.js: 27ms, application-code: 899ms)
+ GET /super-admin/dashboard 200 in 946ms (next.js: 20ms, application-code: 926ms)
+ GET /super-admin/dashboard 200 in 919ms (next.js: 21ms, application-code: 898ms)
+ GET /super-admin/dashboard 200 in 1020ms (next.js: 25ms, application-code: 995ms)
+ GET /super-admin/dashboard 200 in 898ms (next.js: 29ms, application-code: 869ms)
+ GET /super-admin/dashboard 200 in 841ms (next.js: 20ms, application-code: 821ms)
+ GET /super-admin/dashboard 200 in 1043ms (next.js: 41ms, application-code: 1003ms)
+ GET /super-admin/dashboard 200 in 953ms (next.js: 75ms, application-code: 878ms)
+ GET /super-admin/dashboard 200 in 1089ms (next.js: 29ms, application-code: 1059ms)
+ GET /super-admin/dashboard 200 in 924ms (next.js: 43ms, application-code: 880ms)
+ GET /super-admin/dashboard 200 in 1095ms (next.js: 28ms, application-code: 1067ms)
+ GET /super-admin/dashboard 200 in 936ms (next.js: 26ms, application-code: 909ms)
+ GET /super-admin/dashboard 200 in 1025ms (next.js: 63ms, application-code: 962ms)
+ GET /super-admin/dashboard 200 in 992ms (next.js: 46ms, application-code: 946ms)
+ GET /super-admin/dashboard 200 in 914ms (next.js: 24ms, application-code: 890ms)
+ GET /super-admin/dashboard 200 in 804ms (next.js: 30ms, application-code: 774ms)
+ GET /super-admin/dashboard 200 in 880ms (next.js: 19ms, application-code: 862ms)
+ GET /super-admin/dashboard 200 in 901ms (next.js: 22ms, application-code: 880ms)
+ GET /super-admin/dashboard 200 in 889ms (next.js: 33ms, application-code: 856ms)
+ GET /super-admin/dashboard 200 in 929ms (next.js: 25ms, application-code: 904ms)
+ GET /super-admin/dashboard 200 in 878ms (next.js: 20ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 792ms (next.js: 22ms, application-code: 770ms)
+ GET /super-admin/dashboard 200 in 892ms (next.js: 18ms, application-code: 874ms)
+ GET /super-admin/dashboard 200 in 813ms (next.js: 20ms, application-code: 793ms)
+ GET /super-admin/dashboard 200 in 1010ms (next.js: 36ms, application-code: 974ms)
+ GET /super-admin/dashboard 200 in 824ms (next.js: 33ms, application-code: 791ms)
+ GET /super-admin/dashboard 200 in 966ms (next.js: 21ms, application-code: 945ms)
+ GET /super-admin/dashboard 200 in 864ms (next.js: 22ms, application-code: 842ms)
+ GET /super-admin/dashboard 200 in 886ms (next.js: 22ms, application-code: 865ms)
+ GET /super-admin/dashboard 200 in 1011ms (next.js: 51ms, application-code: 960ms)
+ GET /super-admin/dashboard 200 in 1020ms (next.js: 25ms, application-code: 995ms)
+ GET /super-admin/dashboard 200 in 919ms (next.js: 26ms, application-code: 893ms)
+ GET /super-admin/dashboard 200 in 869ms (next.js: 25ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 1050ms (next.js: 50ms, application-code: 1000ms)
+ GET /super-admin/dashboard 200 in 994ms (next.js: 39ms, application-code: 954ms)
+ GET /super-admin/dashboard 200 in 862ms (next.js: 34ms, application-code: 828ms)
+ GET /super-admin/dashboard 200 in 943ms (next.js: 47ms, application-code: 896ms)
+ GET /super-admin/dashboard 200 in 866ms (next.js: 29ms, application-code: 837ms)
+ GET /super-admin/dashboard 200 in 818ms (next.js: 22ms, application-code: 796ms)
+ GET /super-admin/dashboard 200 in 848ms (next.js: 27ms, application-code: 821ms)
+ GET /super-admin/dashboard 200 in 850ms (next.js: 20ms, application-code: 830ms)
+ GET /super-admin/dashboard 200 in 830ms (next.js: 19ms, application-code: 811ms)
+ GET /super-admin/dashboard 200 in 807ms (next.js: 20ms, application-code: 787ms)
+ GET /super-admin/dashboard 200 in 839ms (next.js: 27ms, application-code: 812ms)
+ GET /super-admin/dashboard 200 in 808ms (next.js: 30ms, application-code: 778ms)
+ GET /super-admin/dashboard 200 in 796ms (next.js: 23ms, application-code: 772ms)
+ GET /super-admin/dashboard 200 in 803ms (next.js: 15ms, application-code: 788ms)
+ GET /super-admin/dashboard 200 in 816ms (next.js: 15ms, application-code: 801ms)
+ GET /super-admin/dashboard 200 in 811ms (next.js: 25ms, application-code: 786ms)
+ GET /super-admin/dashboard 200 in 875ms (next.js: 14ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 913ms (next.js: 13ms, application-code: 900ms)
+ GET /super-admin/dashboard 200 in 784ms (next.js: 14ms, application-code: 770ms)
+ GET /super-admin/dashboard 200 in 883ms (next.js: 16ms, application-code: 867ms)
+ GET /super-admin/dashboard 200 in 981ms (next.js: 18ms, application-code: 963ms)
+ GET /super-admin/dashboard 200 in 829ms (next.js: 26ms, application-code: 803ms)
+ GET /super-admin/dashboard 200 in 964ms (next.js: 29ms, application-code: 935ms)
+ GET /super-admin/dashboard 200 in 922ms (next.js: 24ms, application-code: 898ms)
+ GET /super-admin/dashboard 200 in 925ms (next.js: 22ms, application-code: 903ms)
+ GET /super-admin/dashboard 200 in 937ms (next.js: 41ms, application-code: 896ms)
+ GET /super-admin/dashboard 200 in 894ms (next.js: 19ms, application-code: 876ms)
+ GET /super-admin/dashboard 200 in 877ms (next.js: 48ms, application-code: 829ms)
+ GET /super-admin/dashboard 200 in 884ms (next.js: 23ms, application-code: 861ms)
+ GET /super-admin/dashboard 200 in 890ms (next.js: 22ms, application-code: 868ms)
+ GET /super-admin/dashboard 200 in 797ms (next.js: 18ms, application-code: 779ms)
+ GET /super-admin/dashboard 200 in 890ms (next.js: 20ms, application-code: 870ms)
+ GET /super-admin/dashboard 200 in 901ms (next.js: 18ms, application-code: 883ms)
+ GET /super-admin/dashboard 200 in 966ms (next.js: 22ms, application-code: 945ms)
+ GET /super-admin/dashboard 200 in 859ms (next.js: 34ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 1119ms (next.js: 24ms, application-code: 1096ms)
+ GET /super-admin/dashboard 200 in 928ms (next.js: 19ms, application-code: 909ms)
+ GET /super-admin/dashboard 200 in 906ms (next.js: 24ms, application-code: 882ms)
+ GET /super-admin/dashboard 200 in 972ms (next.js: 72ms, application-code: 900ms)
+ GET /super-admin/dashboard 200 in 1008ms (next.js: 48ms, application-code: 960ms)
+ GET /super-admin/dashboard 200 in 1095ms (next.js: 27ms, application-code: 1068ms)
+ GET /super-admin/dashboard 200 in 900ms (next.js: 23ms, application-code: 877ms)
+ GET /super-admin/dashboard 200 in 1072ms (next.js: 46ms, application-code: 1025ms)
+ GET /super-admin/dashboard 200 in 952ms (next.js: 22ms, application-code: 930ms)
+ GET /super-admin/dashboard 200 in 848ms (next.js: 25ms, application-code: 823ms)
+ GET /super-admin/dashboard 200 in 960ms (next.js: 32ms, application-code: 928ms)
+ GET /super-admin/dashboard 200 in 950ms (next.js: 58ms, application-code: 892ms)
+ GET /super-admin/dashboard 200 in 886ms (next.js: 37ms, application-code: 850ms)
+ GET /super-admin/dashboard 200 in 850ms (next.js: 28ms, application-code: 822ms)
+ GET /super-admin/dashboard 200 in 933ms (next.js: 25ms, application-code: 908ms)
+ GET /super-admin/dashboard 200 in 811ms (next.js: 25ms, application-code: 785ms)
+ GET /super-admin/dashboard 200 in 920ms (next.js: 54ms, application-code: 866ms)
+ GET /super-admin/dashboard 200 in 864ms (next.js: 31ms, application-code: 833ms)
+ GET /super-admin/dashboard 200 in 827ms (next.js: 19ms, application-code: 808ms)
+ GET /super-admin/dashboard 200 in 887ms (next.js: 19ms, application-code: 869ms)
+ GET /super-admin/dashboard 200 in 851ms (next.js: 19ms, application-code: 832ms)
+ GET /super-admin/dashboard 200 in 908ms (next.js: 21ms, application-code: 886ms)
+ GET /super-admin/dashboard 200 in 925ms (next.js: 26ms, application-code: 899ms)
+ GET /super-admin/dashboard 200 in 831ms (next.js: 22ms, application-code: 809ms)
+ GET /super-admin/dashboard 200 in 968ms (next.js: 20ms, application-code: 948ms)
+ GET /super-admin/dashboard 200 in 843ms (next.js: 21ms, application-code: 822ms)
+ GET /super-admin/dashboard 200 in 848ms (next.js: 20ms, application-code: 828ms)
+ GET /super-admin/dashboard 200 in 991ms (next.js: 17ms, application-code: 974ms)
+ GET /super-admin/dashboard 200 in 1040ms (next.js: 39ms, application-code: 1001ms)
+ GET /super-admin/dashboard 200 in 847ms (next.js: 29ms, application-code: 818ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="id" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_c15e96cb-module__0bjUvq__variable font-sans"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+ GET /super-admin/dashboard 200 in 1369ms (next.js: 25ms, application-code: 1344ms)
+ GET /super-admin/dashboard 200 in 1807ms (next.js: 22ms, application-code: 1785ms)
+ GET /super-admin/dashboard 200 in 1671ms (next.js: 39ms, application-code: 1632ms)
+ GET /super-admin/dashboard 200 in 1528ms (next.js: 37ms, application-code: 1491ms)
+ GET /super-admin/dashboard 200 in 1598ms (next.js: 372ms, application-code: 1226ms)
+ GET /super-admin/dashboard 200 in 1246ms (next.js: 99ms, application-code: 1147ms)
+ GET /super-admin/dashboard 200 in 1518ms (next.js: 109ms, application-code: 1409ms)
+ GET /super-admin/dashboard 200 in 1633ms (next.js: 219ms, application-code: 1414ms)
+○ Compiling /[role]/returns ...
+ GET /super-admin/dashboard 200 in 1893ms (next.js: 127ms, application-code: 1766ms)
+ GET /super-admin/dashboard 200 in 1372ms (next.js: 86ms, application-code: 1286ms)
+ GET /super-admin/dashboard 200 in 2.4s (next.js: 505ms, application-code: 1860ms)
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 78ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 1391ms (next.js: 216ms, application-code: 1175ms)
+ GET /super-admin/dashboard 200 in 1361ms (next.js: 151ms, application-code: 1210ms)
+ GET /super-admin/dashboard 200 in 1092ms (next.js: 74ms, application-code: 1017ms)
+ GET /super-admin/dashboard 200 in 1586ms (next.js: 52ms, application-code: 1534ms)
+ GET /super-admin/dashboard 200 in 1651ms (next.js: 108ms, application-code: 1542ms)
+ GET /super-admin/dashboard 200 in 1154ms (next.js: 77ms, application-code: 1077ms)
+ GET /super-admin/dashboard 200 in 1521ms (next.js: 81ms, application-code: 1440ms)
+ GET /super-admin/dashboard 200 in 1212ms (next.js: 96ms, application-code: 1116ms)
+ GET /super-admin/dashboard 200 in 2.4s (next.js: 119ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 2.3s (next.js: 102ms, application-code: 2.2s)
+ GET /super-admin/returns 200 in 14.2s (next.js: 13.8s, application-code: 410ms)
+ GET /super-admin/dashboard 200 in 1825ms (next.js: 665ms, application-code: 1160ms)
+ GET /super-admin/dashboard 200 in 898ms (next.js: 68ms, application-code: 830ms)
+ GET /super-admin/dashboard 200 in 937ms (next.js: 25ms, application-code: 912ms)
+ GET /super-admin/dashboard 200 in 916ms (next.js: 25ms, application-code: 891ms)
+ GET /super-admin/dashboard 200 in 885ms (next.js: 27ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 889ms (next.js: 20ms, application-code: 869ms)
+ GET /super-admin/dashboard 200 in 1029ms (next.js: 25ms, application-code: 1004ms)
+ GET /super-admin/dashboard 200 in 851ms (next.js: 31ms, application-code: 820ms)
+ GET /super-admin/dashboard 200 in 932ms (next.js: 24ms, application-code: 908ms)
+ GET /super-admin/dashboard 200 in 945ms (next.js: 20ms, application-code: 925ms)
+ GET /super-admin/dashboard 200 in 805ms (next.js: 22ms, application-code: 783ms)
+ GET /super-admin/dashboard 200 in 932ms (next.js: 22ms, application-code: 910ms)
+ GET /super-admin/dashboard 200 in 926ms (next.js: 26ms, application-code: 900ms)
+ GET /super-admin/dashboard 200 in 832ms (next.js: 22ms, application-code: 810ms)
+ GET /super-admin/dashboard 200 in 917ms (next.js: 21ms, application-code: 896ms)
+ GET /super-admin/dashboard 200 in 859ms (next.js: 27ms, application-code: 832ms)
+ GET /super-admin/dashboard 200 in 921ms (next.js: 20ms, application-code: 901ms)
+ GET /super-admin/dashboard 200 in 997ms (next.js: 24ms, application-code: 974ms)
+ GET /super-admin/dashboard 200 in 1039ms (next.js: 24ms, application-code: 1015ms)
+ GET /super-admin/dashboard 200 in 911ms (next.js: 29ms, application-code: 882ms)
+ GET /super-admin/dashboard 200 in 865ms (next.js: 47ms, application-code: 818ms)
+ GET /super-admin/dashboard 200 in 899ms (next.js: 45ms, application-code: 854ms)
+ GET /super-admin/dashboard 200 in 1064ms (next.js: 28ms, application-code: 1035ms)
+ GET /super-admin/dashboard 200 in 893ms (next.js: 24ms, application-code: 870ms)
+ GET /super-admin/dashboard 200 in 1109ms (next.js: 26ms, application-code: 1083ms)
+ GET /super-admin/dashboard 200 in 1173ms (next.js: 53ms, application-code: 1120ms)
+ GET /super-admin/dashboard 200 in 884ms (next.js: 26ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 874ms (next.js: 21ms, application-code: 853ms)
+ GET /super-admin/dashboard 200 in 839ms (next.js: 55ms, application-code: 784ms)
+ GET /super-admin/dashboard 200 in 840ms (next.js: 28ms, application-code: 812ms)
+ GET /super-admin/dashboard 200 in 831ms (next.js: 20ms, application-code: 812ms)
+ GET /super-admin/dashboard 200 in 879ms (next.js: 28ms, application-code: 851ms)
+ GET /super-admin/dashboard 200 in 898ms (next.js: 23ms, application-code: 875ms)
+ GET /super-admin/dashboard 200 in 788ms (next.js: 17ms, application-code: 771ms)
+ GET /super-admin/dashboard 200 in 924ms (next.js: 31ms, application-code: 893ms)
+ GET /super-admin/dashboard 200 in 977ms (next.js: 22ms, application-code: 955ms)
+ GET /super-admin/dashboard 200 in 992ms (next.js: 32ms, application-code: 961ms)
+ GET /super-admin/dashboard 200 in 854ms (next.js: 29ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 975ms (next.js: 22ms, application-code: 953ms)
+ GET /super-admin/dashboard 200 in 881ms (next.js: 25ms, application-code: 856ms)
+ GET /super-admin/dashboard 200 in 838ms (next.js: 18ms, application-code: 820ms)
+ GET /super-admin/dashboard 200 in 839ms (next.js: 18ms, application-code: 821ms)
+ GET /super-admin/dashboard 200 in 827ms (next.js: 17ms, application-code: 810ms)
+ GET /super-admin/dashboard 200 in 872ms (next.js: 18ms, application-code: 854ms)
+ GET /super-admin/dashboard 200 in 862ms (next.js: 24ms, application-code: 839ms)
+ GET /super-admin/dashboard 200 in 920ms (next.js: 36ms, application-code: 884ms)
+ GET /super-admin/dashboard 200 in 842ms (next.js: 36ms, application-code: 806ms)
+ GET /super-admin/dashboard 200 in 944ms (next.js: 20ms, application-code: 925ms)
+ GET /super-admin/dashboard 200 in 859ms (next.js: 20ms, application-code: 840ms)
+ GET /super-admin/dashboard 200 in 859ms (next.js: 21ms, application-code: 837ms)
+ GET /super-admin/dashboard 200 in 996ms (next.js: 24ms, application-code: 972ms)
+ GET /super-admin/dashboard 200 in 848ms (next.js: 29ms, application-code: 819ms)
+ GET /super-admin/dashboard 200 in 975ms (next.js: 22ms, application-code: 953ms)
+ GET /super-admin/dashboard 200 in 912ms (next.js: 30ms, application-code: 882ms)
+ GET /super-admin/dashboard 200 in 900ms (next.js: 23ms, application-code: 877ms)
+ GET /super-admin/dashboard 200 in 1119ms (next.js: 21ms, application-code: 1097ms)
+ GET /super-admin/dashboard 200 in 1012ms (next.js: 36ms, application-code: 977ms)
+ GET /super-admin/dashboard 200 in 924ms (next.js: 24ms, application-code: 900ms)
+ GET /super-admin/dashboard 200 in 862ms (next.js: 18ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 2.3s (next.js: 21ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 18ms, application-code: 2.2s)
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 76ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 1414ms (next.js: 59ms, application-code: 1355ms)
+ GET /super-admin/dashboard 200 in 1069ms (next.js: 82ms, application-code: 987ms)
+ GET /super-admin/dashboard 200 in 1663ms (next.js: 136ms, application-code: 1527ms)
+ GET /super-admin/dashboard 200 in 1256ms (next.js: 65ms, application-code: 1190ms)
+ GET /super-admin/dashboard 200 in 1419ms (next.js: 124ms, application-code: 1295ms)
+ GET /super-admin/dashboard 200 in 1560ms (next.js: 99ms, application-code: 1461ms)
+○ Compiling /[role]/fines ...
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 93ms, application-code: 2.0s)
+ GET /super-admin/dashboard 200 in 2.9s (next.js: 169ms, application-code: 2.8s)
+ GET /super-admin/dashboard 200 in 2.9s (next.js: 325ms, application-code: 2.6s)
+ GET /super-admin/dashboard 200 in 2.4s (next.js: 113ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 2.5s (next.js: 78ms, application-code: 2.4s)
+ GET /super-admin/dashboard 200 in 2.6s (next.js: 266ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 1547ms (next.js: 128ms, application-code: 1419ms)
+ GET /super-admin/dashboard 200 in 1505ms (next.js: 154ms, application-code: 1350ms)
+ GET /super-admin/dashboard 200 in 1581ms (next.js: 197ms, application-code: 1384ms)
+ GET /super-admin/dashboard 200 in 1027ms (next.js: 68ms, application-code: 959ms)
+ GET /super-admin/dashboard 200 in 1171ms (next.js: 96ms, application-code: 1075ms)
+ GET /super-admin/dashboard 200 in 1219ms (next.js: 140ms, application-code: 1079ms)
+ GET /super-admin/dashboard 200 in 3.2s (next.js: 96ms, application-code: 3.1s)
+ GET /super-admin/dashboard 200 in 3.2s (next.js: 154ms, application-code: 3.0s)
+ GET /super-admin/fines 200 in 17.4s (next.js: 15.2s, application-code: 2.2s)
+ GET /super-admin/dashboard 200 in 3.1s (next.js: 561ms, application-code: 2.5s)
+ GET /super-admin/dashboard 200 in 1802ms (next.js: 283ms, application-code: 1520ms)
+ GET /super-admin/dashboard 200 in 1556ms (next.js: 112ms, application-code: 1445ms)
+ GET /super-admin/dashboard 200 in 1795ms (next.js: 296ms, application-code: 1499ms)
+ GET /super-admin/dashboard 200 in 1548ms (next.js: 112ms, application-code: 1435ms)
+ GET /super-admin/dashboard 200 in 2.5s (next.js: 338ms, application-code: 2.1s)
+✓ Finished writing to filesystem cache in 11.2s
+ GET /super-admin/dashboard 200 in 2.7s (next.js: 621ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 1478ms (next.js: 104ms, application-code: 1374ms)
+ GET /super-admin/dashboard 200 in 2.5s (next.js: 273ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 1943ms (next.js: 89ms, application-code: 1855ms)
+ GET /super-admin/dashboard 200 in 1876ms (next.js: 284ms, application-code: 1592ms)
+ GET /super-admin/dashboard 200 in 1778ms (next.js: 96ms, application-code: 1681ms)
+ GET /super-admin/dashboard 200 in 1290ms (next.js: 100ms, application-code: 1190ms)
+○ Compiling /[role]/reports ...
+ GET /super-admin/dashboard 200 in 1371ms (next.js: 88ms, application-code: 1284ms)
+ GET /super-admin/dashboard 200 in 1677ms (next.js: 142ms, application-code: 1535ms)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 230ms, application-code: 1885ms)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 95ms, application-code: 2.0s)
+ GET /super-admin/dashboard 200 in 3.9s (next.js: 97ms, application-code: 3.8s)
+ GET /super-admin/dashboard 200 in 3.2s (next.js: 153ms, application-code: 3.1s)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 89ms, application-code: 2.0s)
+ GET /super-admin/dashboard 200 in 1879ms (next.js: 347ms, application-code: 1533ms)
+ GET /super-admin/dashboard 200 in 1669ms (next.js: 175ms, application-code: 1495ms)
+ GET /super-admin/dashboard 200 in 1471ms (next.js: 215ms, application-code: 1256ms)
+ GET /super-admin/dashboard 200 in 1539ms (next.js: 139ms, application-code: 1400ms)
+ GET /super-admin/dashboard 200 in 1592ms (next.js: 86ms, application-code: 1505ms)
+ GET /super-admin/dashboard 200 in 1909ms (next.js: 159ms, application-code: 1749ms)
+ GET /super-admin/dashboard 200 in 2.3s (next.js: 114ms, application-code: 2.2s)
+ GET /super-admin/dashboard 200 in 2.6s (next.js: 289ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 1776ms (next.js: 207ms, application-code: 1569ms)
+ GET /super-admin/dashboard 200 in 2.9s (next.js: 184ms, application-code: 2.7s)
+ GET /super-admin/dashboard 200 in 1949ms (next.js: 93ms, application-code: 1856ms)
+ GET /super-admin/reports 200 in 23.1s (next.js: 21.3s, application-code: 1876ms)
+ GET /super-admin/dashboard 200 in 1704ms (next.js: 261ms, application-code: 1443ms)
+ GET /super-admin/dashboard 200 in 2.9s (next.js: 1023ms, application-code: 1907ms)
+ GET /super-admin/dashboard 200 in 1714ms (next.js: 277ms, application-code: 1436ms)
+ GET /super-admin/dashboard 200 in 1753ms (next.js: 177ms, application-code: 1577ms)
+ GET /super-admin/dashboard 200 in 1646ms (next.js: 83ms, application-code: 1564ms)
+○ Compiling /[role]/settings ...
+ GET /super-admin/dashboard 200 in 2.4s (next.js: 145ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 1756ms (next.js: 115ms, application-code: 1640ms)
+ GET /super-admin/dashboard 200 in 2.0s (next.js: 156ms, application-code: 1893ms)
+ GET /super-admin/dashboard 200 in 3.1s (next.js: 182ms, application-code: 2.9s)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 35ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 79ms, application-code: 2.1s)
+ GET /super-admin/dashboard 200 in 1335ms (next.js: 105ms, application-code: 1230ms)
+ GET /super-admin/dashboard 200 in 1376ms (next.js: 157ms, application-code: 1219ms)
+ GET /super-admin/dashboard 200 in 2.7s (next.js: 93ms, application-code: 2.6s)
+ GET /super-admin/dashboard 200 in 2.2s (next.js: 158ms, application-code: 2.0s)
+ GET /super-admin/dashboard 200 in 2.5s (next.js: 240ms, application-code: 2.3s)
+ GET /super-admin/dashboard 200 in 1928ms (next.js: 100ms, application-code: 1828ms)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 141ms, application-code: 1921ms)
+ GET /super-admin/dashboard 200 in 1346ms (next.js: 98ms, application-code: 1248ms)
+ GET /super-admin/dashboard 200 in 1635ms (next.js: 46ms, application-code: 1589ms)
+ GET /super-admin/dashboard 200 in 1748ms (next.js: 72ms, application-code: 1676ms)
+ GET /super-admin/settings 200 in 16.7s (next.js: 15.5s, application-code: 1163ms)
+ GET /super-admin/dashboard 200 in 1310ms (next.js: 130ms, application-code: 1180ms)
+ GET /super-admin/dashboard 200 in 1229ms (next.js: 76ms, application-code: 1153ms)
+ GET /super-admin/dashboard 200 in 1368ms (next.js: 161ms, application-code: 1206ms)
+ GET /super-admin/dashboard 200 in 1363ms (next.js: 69ms, application-code: 1294ms)
+ GET /super-admin/dashboard 200 in 1566ms (next.js: 49ms, application-code: 1516ms)
+ GET /super-admin/dashboard 200 in 1169ms (next.js: 65ms, application-code: 1104ms)
+ GET /super-admin/dashboard 200 in 1168ms (next.js: 96ms, application-code: 1072ms)
+ GET /super-admin/dashboard 200 in 1389ms (next.js: 105ms, application-code: 1284ms)
+ GET /super-admin/dashboard 200 in 1827ms (next.js: 208ms, application-code: 1619ms)
+ GET /super-admin/dashboard 200 in 1159ms (next.js: 86ms, application-code: 1072ms)
+ GET /super-admin/dashboard 200 in 1311ms (next.js: 72ms, application-code: 1239ms)
+ GET /super-admin/dashboard 200 in 1222ms (next.js: 86ms, application-code: 1136ms)
+ GET /super-admin/dashboard 200 in 1363ms (next.js: 70ms, application-code: 1293ms)
+ GET /super-admin/dashboard 200 in 1024ms (next.js: 38ms, application-code: 986ms)
+ GET /super-admin/dashboard 200 in 1662ms (next.js: 106ms, application-code: 1556ms)
+ GET /super-admin/dashboard 200 in 1205ms (next.js: 83ms, application-code: 1122ms)
+ GET /super-admin/dashboard 200 in 1846ms (next.js: 92ms, application-code: 1754ms)
+ GET /super-admin/dashboard 200 in 1334ms (next.js: 87ms, application-code: 1247ms)
+ GET /super-admin/dashboard 200 in 1287ms (next.js: 255ms, application-code: 1033ms)
+ GET /super-admin/dashboard 200 in 1363ms (next.js: 136ms, application-code: 1227ms)
+ GET /super-admin/dashboard 200 in 1597ms (next.js: 105ms, application-code: 1493ms)
+ GET /super-admin/dashboard 200 in 1217ms (next.js: 55ms, application-code: 1162ms)
+ GET /super-admin/dashboard 200 in 1851ms (next.js: 189ms, application-code: 1662ms)
+ GET /super-admin/dashboard 200 in 7.9s (next.js: 614ms, application-code: 7.3s)
+ GET /admin/dashboard 200 in 9.2s (next.js: 33ms, application-code: 9.2s)
+ GET /super-admin/dashboard 200 in 1926ms (next.js: 133ms, application-code: 1793ms)
+ GET /super-admin/dashboard 200 in 267ms (next.js: 191ms, application-code: 76ms)
+ GET /super-admin/dashboard 200 in 1243ms (next.js: 45ms, application-code: 1198ms)
+ GET /super-admin/dashboard 200 in 528ms (next.js: 43ms, application-code: 486ms)
+ GET /super-admin/dashboard 200 in 199ms (next.js: 51ms, application-code: 148ms)
+ GET /super-admin/dashboard 200 in 1418ms (next.js: 69ms, application-code: 1349ms)
+ GET /super-admin/dashboard 200 in 524ms (next.js: 165ms, application-code: 358ms)
+ GET /super-admin/dashboard 200 in 1500ms (next.js: 103ms, application-code: 1397ms)
+ GET /super-admin/dashboard 200 in 190ms (next.js: 112ms, application-code: 78ms)
+ GET /super-admin/dashboard 200 in 1545ms (next.js: 304ms, application-code: 1241ms)
+ GET /super-admin/dashboard 200 in 698ms (next.js: 108ms, application-code: 591ms)
+ GET /super-admin/dashboard 200 in 1399ms (next.js: 69ms, application-code: 1330ms)
+ GET /super-admin/dashboard 200 in 1250ms (next.js: 153ms, application-code: 1098ms)
+ GET /super-admin/dashboard 200 in 152ms (next.js: 49ms, application-code: 103ms)
+ GET /super-admin/dashboard 200 in 206ms (next.js: 48ms, application-code: 158ms)
+ GET /super-admin/dashboard 200 in 1631ms (next.js: 223ms, application-code: 1408ms)
+ GET /super-admin/dashboard 200 in 1220ms (next.js: 171ms, application-code: 1049ms)
+ GET /super-admin/dashboard 200 in 522ms (next.js: 187ms, application-code: 335ms)
+ GET /super-admin/dashboard 200 in 1315ms (next.js: 182ms, application-code: 1132ms)
+ GET /super-admin/dashboard 200 in 311ms (next.js: 86ms, application-code: 225ms)
+ GET /super-admin/dashboard 200 in 145ms (next.js: 35ms, application-code: 110ms)
+ GET /super-admin/dashboard 200 in 678ms (next.js: 89ms, application-code: 589ms)
+ GET /super-admin/dashboard 200 in 1980ms (next.js: 125ms, application-code: 1855ms)
+ GET /super-admin/dashboard 200 in 1517ms (next.js: 112ms, application-code: 1405ms)
+ GET /super-admin/dashboard 200 in 159ms (next.js: 47ms, application-code: 112ms)
+ GET /super-admin/dashboard 200 in 308ms (next.js: 120ms, application-code: 188ms)
+ GET /super-admin/dashboard 200 in 1591ms (next.js: 202ms, application-code: 1389ms)
+ GET /super-admin/dashboard 200 in 1502ms (next.js: 89ms, application-code: 1413ms)
+ GET /super-admin/dashboard 200 in 1093ms (next.js: 111ms, application-code: 982ms)
+ GET /super-admin/dashboard 200 in 243ms (next.js: 114ms, application-code: 129ms)
+ GET /super-admin/dashboard 200 in 831ms (next.js: 83ms, application-code: 748ms)
+ GET /super-admin/dashboard 200 in 1650ms (next.js: 175ms, application-code: 1476ms)
+ GET /super-admin/dashboard 200 in 377ms (next.js: 268ms, application-code: 109ms)
+ GET /super-admin/dashboard 200 in 1701ms (next.js: 159ms, application-code: 1543ms)
+ GET /super-admin/dashboard 200 in 260ms (next.js: 54ms, application-code: 206ms)
+ GET /super-admin/dashboard 200 in 1472ms (next.js: 35ms, application-code: 1437ms)
+ GET /super-admin/dashboard 200 in 203ms (next.js: 59ms, application-code: 144ms)
+ GET /super-admin/dashboard 200 in 1320ms (next.js: 142ms, application-code: 1179ms)
+ GET /super-admin/dashboard 200 in 486ms (next.js: 96ms, application-code: 390ms)
+ GET /super-admin/dashboard 200 in 1392ms (next.js: 55ms, application-code: 1336ms)
+ GET /super-admin/dashboard 200 in 178ms (next.js: 65ms, application-code: 113ms)
+ GET /super-admin/dashboard 200 in 244ms (next.js: 112ms, application-code: 132ms)
+ GET /super-admin/dashboard 200 in 1372ms (next.js: 84ms, application-code: 1288ms)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 64ms, application-code: 2.0s)
+ GET /super-admin/dashboard 200 in 1742ms (next.js: 189ms, application-code: 1554ms)
+ GET /super-admin/dashboard 200 in 234ms (next.js: 56ms, application-code: 178ms)
+ GET /super-admin/dashboard 200 in 1063ms (next.js: 75ms, application-code: 988ms)
+ GET /super-admin/dashboard 200 in 897ms (next.js: 47ms, application-code: 850ms)
+ GET /login 200 in 298ms (next.js: 33ms, application-code: 265ms)
+ GET /login 200 in 173ms (next.js: 32ms, application-code: 141ms)
+ GET /login 200 in 269ms (next.js: 35ms, application-code: 234ms)
+ GET /super-admin/dashboard 200 in 1067ms (next.js: 70ms, application-code: 997ms)
+ GET /super-admin/dashboard 200 in 1012ms (next.js: 22ms, application-code: 991ms)
+ GET /super-admin/dashboard 200 in 875ms (next.js: 23ms, application-code: 853ms)
+ GET /super-admin/dashboard 200 in 56ms
+ GET /super-admin/dashboard 200 in 455ms (next.js: 29ms, application-code: 426ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /super-admin/dashboard 200 in 763ms (next.js: 32ms, application-code: 731ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /super-admin/dashboard 200 in 897ms (next.js: 29ms, application-code: 868ms)
+ GET /super-admin/dashboard 200 in 62ms (next.js: 24ms, application-code: 38ms)
+ GET /super-admin/dashboard 200 in 161ms (next.js: 23ms, application-code: 138ms)
+ GET /super-admin/dashboard 200 in 60ms (next.js: 24ms, application-code: 36ms)
+ GET /super-admin/dashboard 200 in 78ms (next.js: 26ms, application-code: 52ms)
+ GET /super-admin/dashboard 200 in 826ms (next.js: 52ms, application-code: 774ms)
+ GET /super-admin/dashboard 200 in 49ms (next.js: 19ms, application-code: 30ms)
+ GET /super-admin/dashboard 200 in 72ms (next.js: 21ms, application-code: 51ms)
+ GET /super-admin/dashboard 200 in 1054ms (next.js: 37ms, application-code: 1017ms)
+ GET /super-admin/dashboard 200 in 1143ms (next.js: 30ms, application-code: 1113ms)
+ GET /super-admin/dashboard 200 in 1011ms (next.js: 19ms, application-code: 991ms)
+ GET /super-admin/dashboard 200 in 85ms (next.js: 48ms, application-code: 37ms)
+ GET /super-admin/admin 200 in 542ms (next.js: 174ms, application-code: 368ms)
+ GET /super-admin/dashboard 200 in 80ms (next.js: 32ms, application-code: 48ms)
+ GET /super-admin/dashboard 200 in 985ms (next.js: 25ms, application-code: 959ms)
+ GET /super-admin/dashboard 200 in 1022ms (next.js: 27ms, application-code: 995ms)
+ GET /super-admin/dashboard 200 in 868ms (next.js: 41ms, application-code: 827ms)
+ GET /super-admin/dashboard 200 in 863ms (next.js: 19ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 940ms (next.js: 18ms, application-code: 922ms)
+ GET /super-admin/dashboard 200 in 826ms (next.js: 19ms, application-code: 808ms)
+ GET /super-admin/dashboard 200 in 1168ms (next.js: 55ms, application-code: 1113ms)
+ GET /super-admin/dashboard 200 in 1120ms (next.js: 25ms, application-code: 1094ms)
+ GET /super-admin/students 200 in 714ms (next.js: 65ms, application-code: 648ms)
+ GET /super-admin/dashboard 200 in 1044ms (next.js: 27ms, application-code: 1017ms)
+ GET /super-admin/dashboard 200 in 1094ms (next.js: 158ms, application-code: 936ms)
+ GET /super-admin/dashboard 200 in 870ms (next.js: 26ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 1028ms (next.js: 19ms, application-code: 1010ms)
+ GET /super-admin/dashboard 200 in 1370ms (next.js: 41ms, application-code: 1329ms)
+ GET /super-admin/dashboard 200 in 1155ms (next.js: 35ms, application-code: 1120ms)
+ GET /super-admin/books 200 in 650ms (next.js: 133ms, application-code: 518ms)
+ GET /super-admin/dashboard 200 in 1261ms (next.js: 28ms, application-code: 1233ms)
+ GET /super-admin/dashboard 200 in 1100ms (next.js: 176ms, application-code: 924ms)
+ GET /super-admin/dashboard 200 in 1214ms (next.js: 33ms, application-code: 1181ms)
+ GET /super-admin/dashboard 200 in 1007ms (next.js: 95ms, application-code: 912ms)
+ GET /super-admin/dashboard 200 in 1013ms (next.js: 29ms, application-code: 984ms)
+ GET /super-admin/categories 200 in 864ms (next.js: 109ms, application-code: 755ms)
+ GET /super-admin/dashboard 200 in 1232ms (next.js: 38ms, application-code: 1194ms)
+ GET /super-admin/dashboard 200 in 1201ms (next.js: 263ms, application-code: 939ms)
+ GET /super-admin/dashboard 200 in 1333ms (next.js: 62ms, application-code: 1271ms)
+ GET /super-admin/dashboard 200 in 1340ms (next.js: 476ms, application-code: 863ms)
+ GET /super-admin/dashboard 200 in 1090ms (next.js: 21ms, application-code: 1069ms)
+ GET /super-admin/dashboard 200 in 1070ms (next.js: 17ms, application-code: 1053ms)
+ GET /super-admin/loans 200 in 588ms (next.js: 69ms, application-code: 519ms)
+ GET /super-admin/dashboard 200 in 991ms (next.js: 30ms, application-code: 960ms)
+ GET /super-admin/dashboard 200 in 1000ms (next.js: 38ms, application-code: 962ms)
+ GET /super-admin/dashboard 200 in 920ms (next.js: 49ms, application-code: 872ms)
+ GET /super-admin/dashboard 200 in 948ms (next.js: 54ms, application-code: 894ms)
+ GET /super-admin/dashboard 200 in 1477ms (next.js: 24ms, application-code: 1454ms)
+ GET /super-admin/dashboard 200 in 1267ms (next.js: 48ms, application-code: 1219ms)
+ GET /super-admin/returns 200 in 592ms (next.js: 80ms, application-code: 512ms)
+ GET /super-admin/dashboard 200 in 1277ms (next.js: 30ms, application-code: 1247ms)
+ GET /super-admin/dashboard 200 in 1057ms (next.js: 21ms, application-code: 1037ms)
+ GET /super-admin/dashboard 200 in 960ms (next.js: 117ms, application-code: 844ms)
+ GET /super-admin/dashboard 200 in 966ms (next.js: 22ms, application-code: 944ms)
+ GET /super-admin/dashboard 200 in 852ms (next.js: 27ms, application-code: 825ms)
+ GET /super-admin/dashboard 200 in 1198ms (next.js: 33ms, application-code: 1166ms)
+ GET /super-admin/dashboard 200 in 1051ms (next.js: 34ms, application-code: 1018ms)
+ GET /super-admin/dashboard 200 in 899ms (next.js: 35ms, application-code: 864ms)
+ GET /super-admin/dashboard 200 in 1634ms (next.js: 39ms, application-code: 1595ms)
+ GET /super-admin/fines 200 in 1084ms (next.js: 225ms, application-code: 859ms)
+ GET /super-admin/dashboard 200 in 1372ms (next.js: 219ms, application-code: 1152ms)
+ GET /super-admin/dashboard 200 in 1363ms (next.js: 106ms, application-code: 1256ms)
+ GET /super-admin/dashboard 200 in 1102ms (next.js: 44ms, application-code: 1058ms)
+ GET /super-admin/dashboard 200 in 1215ms (next.js: 73ms, application-code: 1142ms)
+ GET /super-admin/dashboard 200 in 940ms (next.js: 41ms, application-code: 899ms)
+ GET /super-admin/dashboard 200 in 1231ms (next.js: 33ms, application-code: 1198ms)
+ GET /super-admin/reports 200 in 544ms (next.js: 126ms, application-code: 418ms)
+ GET /super-admin/dashboard 200 in 1310ms (next.js: 14ms, application-code: 1295ms)
+ GET /super-admin/dashboard 200 in 1013ms (next.js: 151ms, application-code: 862ms)
+ GET /super-admin/dashboard 200 in 1006ms (next.js: 23ms, application-code: 982ms)
+ GET /super-admin/dashboard 200 in 1040ms (next.js: 30ms, application-code: 1009ms)
+ GET /super-admin/dashboard 200 in 837ms (next.js: 21ms, application-code: 815ms)
+ GET /super-admin/dashboard 200 in 1070ms (next.js: 25ms, application-code: 1045ms)
+ GET /super-admin/settings 200 in 626ms (next.js: 76ms, application-code: 550ms)
+ GET /super-admin/dashboard 200 in 1045ms (next.js: 28ms, application-code: 1018ms)
+ GET /super-admin/dashboard 200 in 1047ms (next.js: 29ms, application-code: 1018ms)
+ GET /super-admin/dashboard 200 in 1025ms (next.js: 98ms, application-code: 928ms)
+ GET /super-admin/dashboard 200 in 934ms (next.js: 28ms, application-code: 906ms)
+ GET /super-admin/dashboard 200 in 900ms (next.js: 59ms, application-code: 841ms)
+ GET /super-admin/dashboard 200 in 893ms (next.js: 35ms, application-code: 858ms)
+ GET /super-admin/dashboard 200 in 1019ms (next.js: 24ms, application-code: 995ms)
+ GET /super-admin/dashboard 200 in 1017ms (next.js: 32ms, application-code: 985ms)
+ GET /super-admin/dashboard 200 in 1065ms (next.js: 27ms, application-code: 1038ms)
+ GET /super-admin/dashboard 200 in 1290ms (next.js: 74ms, application-code: 1216ms)
+ GET /super-admin/dashboard 200 in 2.3s (next.js: 60ms, application-code: 2.2s)
+ GET /super-admin/dashboard 200 in 2.0s (next.js: 48ms, application-code: 2000ms)
+ GET /admin/dashboard 200 in 2.7s (next.js: 70ms, application-code: 2.6s)
+ GET /super-admin/dashboard 200 in 1713ms (next.js: 21ms, application-code: 1692ms)
+ GET /super-admin/dashboard 200 in 52ms (next.js: 19ms, application-code: 33ms)
+ GET /super-admin/dashboard 200 in 178ms (next.js: 25ms, application-code: 152ms)
+ GET /super-admin/dashboard 200 in 1048ms (next.js: 33ms, application-code: 1015ms)
+ GET /student/dashboard 200 in 511ms (next.js: 25ms, application-code: 486ms)
+ GET /super-admin/dashboard 200 in 149ms (next.js: 90ms, application-code: 59ms)
+ GET /super-admin/dashboard 200 in 72ms (next.js: 33ms, application-code: 40ms)
+ GET /super-admin/dashboard 200 in 1067ms (next.js: 59ms, application-code: 1008ms)
+ GET /super-admin/dashboard 200 in 903ms (next.js: 18ms, application-code: 885ms)
+ GET /super-admin/dashboard 200 in 100ms (next.js: 39ms, application-code: 61ms)
+ GET /super-admin/dashboard 200 in 1067ms (next.js: 45ms, application-code: 1023ms)
+ GET /super-admin/dashboard 200 in 348ms (next.js: 253ms, application-code: 94ms)
+ GET /student/books 200 in 662ms (next.js: 50ms, application-code: 612ms)
+ GET /super-admin/dashboard 200 in 1196ms (next.js: 30ms, application-code: 1166ms)
+ GET /super-admin/dashboard 200 in 1241ms (next.js: 54ms, application-code: 1186ms)
+ GET /super-admin/dashboard 200 in 944ms (next.js: 64ms, application-code: 880ms)
+ GET /super-admin/dashboard 200 in 1351ms (next.js: 27ms, application-code: 1324ms)
+ GET /super-admin/dashboard 200 in 189ms (next.js: 39ms, application-code: 149ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /super-admin/dashboard 200 in 766ms (next.js: 47ms, application-code: 719ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /super-admin/dashboard 200 in 1080ms (next.js: 40ms, application-code: 1040ms)
+ GET /super-admin/dashboard 200 in 92ms (next.js: 20ms, application-code: 72ms)
+ GET /super-admin/dashboard 200 in 1027ms (next.js: 29ms, application-code: 997ms)
+ GET /super-admin/dashboard 200 in 125ms (next.js: 33ms, application-code: 92ms)
+ GET /super-admin/dashboard 200 in 66ms (next.js: 21ms, application-code: 45ms)
+ GET /super-admin/dashboard 200 in 117ms (next.js: 46ms, application-code: 71ms)
+ GET /super-admin/dashboard 200 in 893ms (next.js: 49ms, application-code: 843ms)
+ GET /super-admin/dashboard 200 in 140ms (next.js: 65ms, application-code: 75ms)
+ GET /super-admin/dashboard 200 in 984ms (next.js: 30ms, application-code: 955ms)
+ GET /super-admin/dashboard 200 in 884ms (next.js: 32ms, application-code: 852ms)
+ GET /super-admin/dashboard 200 in 728ms (next.js: 21ms, application-code: 706ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /super-admin/dashboard 200 in 265ms (next.js: 73ms, application-code: 192ms)
+ GET /super-admin/dashboard 200 in 260ms (next.js: 115ms, application-code: 144ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /login 200 in 259ms (next.js: 22ms, application-code: 237ms)
+ GET /admin/dashboard 200 in 3.9s (next.js: 64ms, application-code: 3.8s)
+ GET /admin/dashboard 200 in 6.1s (next.js: 158ms, application-code: 5.9s)
+ GET /admin/books 200 in 521ms (next.js: 65ms, application-code: 456ms)
+ GET /admin/categories 200 in 674ms (next.js: 97ms, application-code: 577ms)
+ GET /admin/students 200 in 309ms (next.js: 78ms, application-code: 231ms)
+ GET /admin/loans 200 in 203ms (next.js: 51ms, application-code: 151ms)
+ GET /admin/returns 200 in 237ms (next.js: 31ms, application-code: 206ms)
+ GET /admin/fines 200 in 199ms (next.js: 35ms, application-code: 164ms)
+ GET /admin/reports 200 in 1037ms (next.js: 308ms, application-code: 729ms)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 176ms, application-code: 1885ms)
+ GET /student/dashboard 200 in 2.4s (next.js: 49ms, application-code: 2.3s)
+ GET /admin/dashboard 200 in 5.7s (next.js: 203ms, application-code: 5.5s)
+ GET /admin/dashboard 200 in 5.2s (next.js: 127ms, application-code: 5.1s)
+ GET /super-admin/settings 200 in 2.7s (next.js: 100ms, application-code: 2.6s)
+ GET /admin/dashboard 200 in 4.8s (next.js: 102ms, application-code: 4.7s)
+ GET /admin/dashboard 200 in 4.1s (next.js: 119ms, application-code: 4.0s)
+ GET /admin/dashboard 200 in 4.1s (next.js: 95ms, application-code: 4.0s)
+ GET /admin/dashboard 200 in 3.9s (next.js: 135ms, application-code: 3.7s)
+ GET /admin/dashboard 200 in 8.5s (next.js: 736ms, application-code: 7.7s)
+ GET /login 200 in 563ms (next.js: 49ms, application-code: 514ms)
+ GET /login 200 in 356ms (next.js: 36ms, application-code: 321ms)
+ GET /login 200 in 148ms (next.js: 27ms, application-code: 121ms)
+ GET /login 200 in 406ms (next.js: 46ms, application-code: 360ms)
+ GET /student/dashboard 200 in 310ms (next.js: 69ms, application-code: 241ms)
+ GET /student/dashboard 200 in 642ms (next.js: 168ms, application-code: 473ms)
+ GET /student/books 200 in 1311ms (next.js: 88ms, application-code: 1223ms)
+○ Compiling /[role]/my-books ...
+ GET /student/my-books 200 in 14.6s (next.js: 13.9s, application-code: 733ms)
+○ Compiling /[role]/history ...
+ GET /student/history 200 in 20.4s (next.js: 19.2s, application-code: 1193ms)
+○ Compiling /[role]/profile ...
+ GET /student/profile 200 in 13.7s (next.js: 13.1s, application-code: 584ms)
+ GET /admin/dashboard 200 in 12.3s (next.js: 179ms, application-code: 12.1s)
+ GET /student/dashboard 200 in 1166ms (next.js: 84ms, application-code: 1081ms)
+ GET /student/dashboard 200 in 449ms (next.js: 132ms, application-code: 317ms)
+ GET /super-admin/dashboard 200 in 1346ms (next.js: 37ms, application-code: 1309ms)
+ GET /student/dashboard 200 in 1688ms (next.js: 39ms, application-code: 1649ms)
+ GET /student/dashboard 200 in 1391ms (next.js: 79ms, application-code: 1313ms)
+ GET /admin/books 200 in 1212ms (next.js: 277ms, application-code: 934ms)
+ GET /student/dashboard 200 in 1126ms (next.js: 163ms, application-code: 963ms)
+ GET /student/dashboard 200 in 612ms (next.js: 159ms, application-code: 453ms)
+ GET /student/dashboard 200 in 821ms (next.js: 70ms, application-code: 751ms)
+ GET /login 200 in 758ms (next.js: 102ms, application-code: 656ms)
+ GET /login 200 in 1104ms (next.js: 56ms, application-code: 1047ms)
+ GET /login 200 in 691ms (next.js: 90ms, application-code: 601ms)
+ GET /login 200 in 528ms (next.js: 46ms, application-code: 482ms)
+ GET /student/dashboard 200 in 258ms (next.js: 59ms, application-code: 199ms)
+ GET /student/books 200 in 1134ms (next.js: 369ms, application-code: 766ms)
+ GET /student/dashboard 200 in 962ms (next.js: 78ms, application-code: 884ms)
+ GET /login 200 in 155ms (next.js: 25ms, application-code: 131ms)
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+○ Compiling /_error ...
+ GET /login 500 in 5.6s (next.js: 5.0s, application-code: 551ms)
+[browser] Uncaught Error: ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/[role]/layout.tsx:8:1)
+    at <unknown> (Error: (./app/[role]/layout.tsx:8:1)
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-client] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+[browser] ./app/[role]/layout.tsx:8:1
+Error: Export slugToRole doesn't exist in target module
+   6 | import { LoadingScreen } from "@/components/shared/loading-screen";
+   7 | import { useAuth } from "@/components/auth/auth-provider";
+>  8 | import { getRedirectPath, slugToRole } from "@/lib/permissions";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { NAV_ITEMS } from "@/lib/navigation";
+  10 | import type { Role } from "@/types";
+  11 |
+
+The export slugToRole was not found in module [project]/lib/permissions.ts [app-ssr] (ecmascript).
+Did you mean to import isRole?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/[role]/layout.tsx [Client Component Browser]
+    ./app/[role]/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/[role]/layout.tsx [Client Component SSR]
+    ./app/[role]/layout.tsx [Server Component] 
+ GET /login 200 in 437ms (next.js: 123ms, application-code: 314ms)
+ GET /super-admin/dashboard 200 in 833ms (next.js: 68ms, application-code: 765ms)
+ GET / 200 in 108ms (next.js: 57ms, application-code: 51ms)
+ GET /super-admin/dashboard 200 in 795ms (next.js: 28ms, application-code: 767ms)
+ GET /super-admin/dashboard 200 in 770ms (next.js: 18ms, application-code: 752ms)
+ GET / 200 in 70ms (next.js: 16ms, application-code: 54ms)
+ GET /super-admin/dashboard 200 in 805ms (next.js: 41ms, application-code: 765ms)
+ GET /super-admin/dashboard 200 in 770ms (next.js: 15ms, application-code: 755ms)
+ GET / 200 in 81ms (next.js: 23ms, application-code: 57ms)
+ GET /super-admin/dashboard 200 in 799ms (next.js: 35ms, application-code: 764ms)
+ GET /super-admin/dashboard 200 in 774ms (next.js: 14ms, application-code: 760ms)
+ GET / 200 in 77ms (next.js: 28ms, application-code: 49ms)
+ GET /super-admin/dashboard 200 in 795ms (next.js: 35ms, application-code: 760ms)
+ GET /super-admin/dashboard 200 in 784ms (next.js: 18ms, application-code: 767ms)
+ GET / 200 in 118ms (next.js: 21ms, application-code: 97ms)
+ GET /super-admin/dashboard 200 in 803ms (next.js: 43ms, application-code: 761ms)
+ GET / 200 in 123ms (next.js: 21ms, application-code: 102ms)
+ GET /super-admin/dashboard 200 in 783ms (next.js: 32ms, application-code: 752ms)
+ GET / 200 in 146ms (next.js: 21ms, application-code: 125ms)
+ GET /super-admin/dashboard 200 in 944ms (next.js: 63ms, application-code: 880ms)
+ GET /super-admin/dashboard 200 in 1165ms (next.js: 79ms, application-code: 1086ms)
+ GET / 200 in 431ms (next.js: 19ms, application-code: 412ms)
+ GET / 200 in 478ms (next.js: 40ms, application-code: 438ms)
+ GET / 200 in 351ms (next.js: 54ms, application-code: 297ms)
+ GET / 200 in 327ms (next.js: 24ms, application-code: 303ms)
+ GET / 200 in 375ms (next.js: 24ms, application-code: 351ms)
+ GET /super-admin/dashboard 200 in 928ms (next.js: 44ms, application-code: 884ms)
+ GET /super-admin/dashboard 200 in 1001ms (next.js: 43ms, application-code: 958ms)
+ GET / 200 in 383ms (next.js: 64ms, application-code: 319ms)
+ GET / 200 in 198ms (next.js: 39ms, application-code: 159ms)
+ GET /super-admin/dashboard 200 in 1836ms (next.js: 60ms, application-code: 1776ms)
+ GET /super-admin/dashboard 200 in 1770ms (next.js: 163ms, application-code: 1607ms)
+ GET / 200 in 100ms (next.js: 27ms, application-code: 73ms)
+ GET /super-admin/dashboard 200 in 1146ms (next.js: 99ms, application-code: 1047ms)
+ GET /super-admin/dashboard 200 in 915ms (next.js: 53ms, application-code: 863ms)
+ GET / 200 in 79ms (next.js: 19ms, application-code: 60ms)
+ GET /super-admin/dashboard 200 in 920ms (next.js: 41ms, application-code: 879ms)
+ GET /super-admin/dashboard 200 in 847ms (next.js: 20ms, application-code: 827ms)
+ GET / 200 in 138ms (next.js: 19ms, application-code: 119ms)
+ GET /super-admin/dashboard 200 in 917ms (next.js: 42ms, application-code: 874ms)
+ GET /super-admin/dashboard 200 in 934ms (next.js: 32ms, application-code: 902ms)
+ GET / 200 in 205ms (next.js: 25ms, application-code: 180ms)
+ GET /super-admin/dashboard 200 in 925ms (next.js: 61ms, application-code: 864ms)
+ GET /super-admin/dashboard 200 in 963ms (next.js: 39ms, application-code: 923ms)
+ GET / 200 in 228ms (next.js: 90ms, application-code: 138ms)
+ GET /super-admin/dashboard 200 in 816ms (next.js: 34ms, application-code: 782ms)
+ GET /super-admin/dashboard 200 in 888ms (next.js: 17ms, application-code: 871ms)
+ GET / 200 in 91ms (next.js: 13ms, application-code: 78ms)
+ GET /super-admin/dashboard 200 in 1118ms (next.js: 39ms, application-code: 1079ms)
+ GET /super-admin/dashboard 200 in 1017ms (next.js: 41ms, application-code: 976ms)
+ GET /super-admin/dashboard 200 in 1259ms (next.js: 193ms, application-code: 1066ms)
+ GET /login 200 in 1667ms (next.js: 430ms, application-code: 1238ms)
+ GET /login 200 in 707ms (next.js: 258ms, application-code: 449ms)
+ GET /login 200 in 629ms (next.js: 49ms, application-code: 580ms)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 125ms, application-code: 1969ms)
+ GET /super-admin/dashboard 200 in 1432ms (next.js: 116ms, application-code: 1316ms)
+ GET /super-admin/admin 200 in 339ms (next.js: 147ms, application-code: 192ms)
+ GET /super-admin/students 200 in 2.5s (next.js: 330ms, application-code: 2.1s)
+ GET /super-admin/books 200 in 1344ms (next.js: 316ms, application-code: 1028ms)
+ GET /super-admin/categories 200 in 2.2s (next.js: 326ms, application-code: 1893ms)
+ GET /super-admin/loans 200 in 1634ms (next.js: 570ms, application-code: 1065ms)
+ GET /super-admin/returns 200 in 1413ms (next.js: 663ms, application-code: 749ms)
+ GET /super-admin/fines 200 in 1395ms (next.js: 734ms, application-code: 661ms)
+ GET /super-admin/reports 200 in 1653ms (next.js: 818ms, application-code: 835ms)
+ GET /super-admin/settings 200 in 944ms (next.js: 319ms, application-code: 625ms)
+ GET /admin/dashboard 200 in 6.6s (next.js: 323ms, application-code: 6.3s)
+ GET /super-admin/dashboard 200 in 1454ms (next.js: 164ms, application-code: 1290ms)
+ GET /super-admin/dashboard 200 in 2.0s (next.js: 146ms, application-code: 1887ms)
+ GET /student/dashboard 200 in 1054ms (next.js: 217ms, application-code: 837ms)
+ GET /super-admin/dashboard 200 in 1640ms (next.js: 331ms, application-code: 1309ms)
+ GET /super-admin/dashboard 200 in 2.1s (next.js: 46ms, application-code: 2.1s)
+ GET /student/books 200 in 1386ms (next.js: 195ms, application-code: 1190ms)
+ GET /super-admin/dashboard 200 in 1484ms (next.js: 179ms, application-code: 1305ms)
+ GET /super-admin/dashboard 200 in 1302ms (next.js: 113ms, application-code: 1188ms)
+ GET /super-admin/dashboard 200 in 1535ms (next.js: 162ms, application-code: 1373ms)
+ GET /login 200 in 826ms (next.js: 231ms, application-code: 595ms)
+ GET /admin/dashboard 200 in 2.2s (next.js: 121ms, application-code: 2.1s)
+ GET /admin/dashboard 200 in 5.4s (next.js: 21ms, application-code: 5.4s)
+ GET /admin/books 200 in 146ms (next.js: 24ms, application-code: 122ms)
+ GET /admin/categories 200 in 168ms (next.js: 31ms, application-code: 136ms)
+ GET /admin/students 200 in 191ms (next.js: 30ms, application-code: 161ms)
+ GET /admin/loans 200 in 265ms (next.js: 40ms, application-code: 226ms)
+ GET /admin/returns 200 in 196ms (next.js: 34ms, application-code: 162ms)
+ GET /admin/fines 200 in 258ms (next.js: 36ms, application-code: 222ms)
+ GET /admin/reports 200 in 278ms (next.js: 53ms, application-code: 225ms)
+ GET /super-admin/dashboard 200 in 1044ms (next.js: 39ms, application-code: 1005ms)
+ GET /student/dashboard 200 in 1110ms (next.js: 34ms, application-code: 1076ms)
+ GET /admin/dashboard 200 in 2.3s (next.js: 69ms, application-code: 2.2s)
+ GET /admin/dashboard 200 in 2.1s (next.js: 43ms, application-code: 2.0s)
+ GET /super-admin/settings 200 in 376ms (next.js: 60ms, application-code: 315ms)
+ GET /admin/dashboard 200 in 1786ms (next.js: 22ms, application-code: 1764ms)
+ GET /admin/dashboard 200 in 1610ms (next.js: 42ms, application-code: 1568ms)
+ GET /admin/dashboard 200 in 1026ms (next.js: 26ms, application-code: 1000ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /admin/dashboard 200 in 891ms (next.js: 26ms, application-code: 865ms)
+⨯ Error: The destination stream closed early.
+    at ignore-listed frames {
+  digest: '3717052274'
+}
+ GET /admin/dashboard 200 in 2.4s (next.js: 47ms, application-code: 2.3s)
+ GET /login 200 in 494ms (next.js: 24ms, application-code: 471ms)
+ GET /login 200 in 717ms (next.js: 102ms, application-code: 615ms)
+ GET /login 200 in 442ms (next.js: 289ms, application-code: 153ms)
+ GET /login 200 in 230ms (next.js: 25ms, application-code: 205ms)
+ GET /student/dashboard 200 in 196ms (next.js: 57ms, application-code: 139ms)
+ GET /student/dashboard 200 in 195ms (next.js: 18ms, application-code: 177ms)
+ GET /student/books 200 in 322ms (next.js: 44ms, application-code: 277ms)
+ GET /student/my-books 200 in 351ms (next.js: 112ms, application-code: 239ms)
+ GET /student/history 200 in 356ms (next.js: 135ms, application-code: 222ms)
+ GET /student/profile 200 in 166ms (next.js: 48ms, application-code: 118ms)
+ GET /student/dashboard 200 in 323ms (next.js: 42ms, application-code: 281ms)
+ GET /student/dashboard 200 in 131ms (next.js: 26ms, application-code: 105ms)
+ GET /admin/dashboard 200 in 5.2s (next.js: 29ms, application-code: 5.2s)
+ GET / 200 in 319ms (next.js: 142ms, application-code: 177ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="id" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_c15e96cb-module__0bjUvq__variable font-sans"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+ GET /super-admin/dashboard 200 in 1505ms (next.js: 114ms, application-code: 1391ms)
+ GET /super-admin/dashboard 200 in 1737ms (next.js: 105ms, application-code: 1632ms)
+ GET /student/dashboard 200 in 576ms (next.js: 29ms, application-code: 547ms)
+ GET /student/dashboard 200 in 367ms (next.js: 20ms, application-code: 346ms)
+ GET / 200 in 638ms (next.js: 158ms, application-code: 480ms)
+ GET / 200 in 1309ms (next.js: 28ms, application-code: 1281ms)
+ GET / 200 in 1504ms (next.js: 408ms, application-code: 1096ms)
+ GET / 200 in 1500ms (next.js: 615ms, application-code: 885ms)
+ GET /admin/books 200 in 1528ms (next.js: 83ms, application-code: 1444ms)
+ GET / 200 in 1433ms (next.js: 726ms, application-code: 707ms)
+ GET / 200 in 605ms (next.js: 133ms, application-code: 471ms)
+ GET /super-admin/dashboard 200 in 2.7s (next.js: 315ms, application-code: 2.4s)
+ GET /student/dashboard 200 in 420ms (next.js: 32ms, application-code: 388ms)
+ GET /student/dashboard 200 in 259ms (next.js: 44ms, application-code: 216ms)
+ GET /super-admin/dashboard 200 in 1370ms (next.js: 333ms, application-code: 1036ms)
+ GET /student/dashboard 200 in 93ms (next.js: 11ms, application-code: 81ms)
+ GET /login 200 in 166ms (next.js: 16ms, application-code: 150ms)
+ GET /login 200 in 140ms (next.js: 17ms, application-code: 123ms)
+ GET /login 200 in 67ms (next.js: 21ms, application-code: 47ms)
+ GET /login 200 in 128ms (next.js: 18ms, application-code: 109ms)
+ GET /student/dashboard 200 in 64ms (next.js: 20ms, application-code: 45ms)
+ GET /student/books 200 in 138ms (next.js: 21ms, application-code: 117ms)
+ GET /student/dashboard 200 in 115ms (next.js: 29ms, application-code: 86ms)
+ GET / 200 in 97ms (next.js: 18ms, application-code: 79ms)

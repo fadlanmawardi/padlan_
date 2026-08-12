@@ -1,0 +1,58 @@
+name: Deploy Next.js
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout kode repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # 3. Install dependencies & Build
+      - name: Install & Build
+        run: |
+          npm ci
+          npm run build
+
+      # 4. Siapkan struktur folder standalone untuk di-deploy
+      - name: Prepare Standalone Build
+        run: |
+          cp -r .next/static .next/standalone/.next/
+          cp -r public .next/standalone/
+
+      # 5. Upload folder standalone ke Server via SFTP/SCP
+      - name: Deploy to Hosting via SCP
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          source: ".next/standalone/*"
+          target: "${{ secrets.TARGET_DIR }}"
+          strip_components: 2
+
+      # 6. Restart Aplikasi via Phusion Passenger (Restart File Manager DirectAdmin)
+      - name: Restart Application Process
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            cd ${{ secrets.TARGET_DIR }}
+            mkdir -p tmp
+            touch tmp/restart.txt
+
