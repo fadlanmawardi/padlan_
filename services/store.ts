@@ -13,6 +13,8 @@ import type {
   BookRating,
   BookWishlistItem,
   Category,
+  ChatConversation,
+  ChatMessage,
   ExamSchedule,
   Fine,
   ForumPost,
@@ -103,6 +105,214 @@ export const dbStudyNotes: StudyNote[] = [...mockStudyNotes];
 export const dbStudyTargets: StudyTarget[] = [...mockStudyTargets];
 export const dbUserAchievements: UserAchievement[] = [];
 export const dbAuditEntries: AuditEntry[] = [...mockAuditEntries];
+
+/* ===================== Chat antar User (database demo) ===================== */
+
+export interface ChatDbData {
+  conversations: ChatConversation[];
+  messages: ChatMessage[];
+}
+
+const CHAT_DB_KEY = "schoolhub-chat-db-v2";
+const CHAT_LEGACY_KEY = "schoolhub-chat-messages-v1";
+
+/**
+ * "Database" chat untuk mode demo. Data dibuat persisten lewat localStorage
+ * sehingga riwayat chat TIDAK hilang saat halaman di-refresh, user logout
+ * lalu login kembali, maupun saat aplikasi di-restart (data tinggal di
+ * browser). Di server (SSR) nilai awal kosong; diisi lewat layanan setelah
+ * mount di sisi klien.
+ */
+export const dbChatData: ChatDbData = {
+  conversations: [],
+  messages: [],
+};
+
+function isChatConversation(value: unknown): value is ChatConversation {
+  if (typeof value !== "object" || value === null) return false;
+  const v = value as Record<string, unknown>;
+  const deletedOk =
+    v.deletedFor === undefined ||
+    (Array.isArray(v.deletedFor) &&
+      v.deletedFor.every((d) => typeof d === "string"));
+  return (
+    typeof v.id === "string" &&
+    Array.isArray(v.participants) &&
+    v.participants.length === 2 &&
+    v.participants.every((p) => typeof p === "string") &&
+    typeof v.lastMessage === "string" &&
+    typeof v.lastMessageAt === "string" &&
+    typeof v.lastSenderId === "string" &&
+    typeof v.createdAt === "string" &&
+    typeof v.updatedAt === "string" &&
+    deletedOk
+  );
+}
+
+function isChatMessage(value: unknown): value is ChatMessage {
+  if (typeof value !== "object" || value === null) return false;
+  const v = value as Record<string, unknown>;
+  return (
+    typeof v.id === "string" &&
+    typeof v.conversationId === "string" &&
+    typeof v.senderId === "string" &&
+    typeof v.receiverId === "string" &&
+    typeof v.message === "string" &&
+    typeof v.createdAt === "string" &&
+    typeof v.updatedAt === "string" &&
+    (typeof v.readAt === "string" || v.readAt === null) &&
+    (typeof v.deliveredAt === "string" || v.deliveredAt === null)
+  );
+}
+
+function isChatDbData(value: unknown): value is ChatDbData {
+  if (typeof value !== "object" || value === null) return false;
+  const v = value as Record<string, unknown>;
+  return (
+    Array.isArray(v.conversations) &&
+    Array.isArray(v.messages) &&
+    v.conversations.every(isChatConversation) &&
+    v.messages.every(isChatMessage)
+  );
+}
+
+/**
+ * Id percakapan diturunkan secara deterministik dari pasangan uid.
+ * Karena urutan di-sort, percakapan A<->B selalu memakai id yang sama
+ * dan tidak akan pernah dibuat dua kali.
+ */
+export function chatConversationIdFor(userA: string, userB: string): string {
+  return `cv-${[userA, userB].sort().join("-")}`;
+}
+
+function isLegacyChatMessage(value: unknown): value is {
+  id: string;
+  senderId: string;
+  receiverId: string;
+  message: string;
+  createdAt: string;
+  readAt: string | null;
+  status: string;
+} {
+  if (typeof value !== "object" || value === null) return false;
+  const v = value as Record<string, unknown>;
+  return (
+    typeof v.id === "string" &&
+    typeof v.senderId === "string" &&
+    typeof v.receiverId === "string" &&
+    typeof v.message === "string" &&
+    typeof v.createdAt === "string"
+  );
+}
+
+/**
+ * Migrasi data chat versi 1 (mungkin masih ada di browser dari versi
+ * sebelumnya) menjadi format v2 agar chat lama tetap tersedia.
+ */
+function migrateLegacyChat(raw: unknown): ChatDbData | null {
+  if (!Array.isArray(raw)) return null;
+  const legacy = raw.filter(isLegacyChatMessage);
+  if (legacy.length === 0) return null;
+
+  const grouped = new Map<string, ChatMessage[]>();
+  for (const m of legacy) {
+    if (m.senderId === m.receiverId) continue;
+    const conversationId = chatConversationIdFor(m.senderId, m.receiverId);
+    const list = grouped.get(conversationId) ?? [];
+    const wasRead = m.status === "read" || m.readAt !== null;
+    list.push({
+      id: m.id,
+      conversationId,
+      senderId: m.senderId,
+      receiverId: m.receiverId,
+      message: m.message,
+      createdAt: m.createdAt,
+      updatedAt: m.createdAt,
+      status: wasRead ? "read" : "sent",
+      readAt: m.readAt ?? null,
+      deliveredAt: wasRead ? m.readAt ?? m.createdAt : null,
+      deletedFor: [],
+      replyToId: null,
+      attachment: null,
+    });
+    grouped.set(conversationId, list);
+  }
+
+  const conversations: ChatConversation[] = [];
+  for (const [conversationId, msgs] of grouped) {
+    const sorted = [...msgs].sort(
+      (a, b) => a.createdAt.localeCompare(b.createdAt) || a.id.localeCompare(b.id)
+    );
+    const first = sorted[0];
+    const last = sorted[sorted.length - 1];
+    conversations.push({
+      id: conversationId,
+      participants: chatParticipantsFromId(first.senderId, first.receiverId),
+      lastMessage: last.message,
+      lastMessageAt: last.createdAt,
+      lastSenderId: last.senderId,
+      createdAt: first.createdAt,
+      updatedAt: last.createdAt,
+      deletedFor: [],
+    });
+  }
+
+  return { conversations, messages: Array.from(grouped.values()).flat() };
+}
+
+function chatParticipantsFromId(
+  senderId: string,
+  receiverId: string
+): string[] {
+  return [senderId, receiverId].sort();
+}
+
+function hydrateChat(data: ChatDbData): void {
+  dbChatData.conversations.length = 0;
+  dbChatData.messages.length = 0;
+  dbChatData.conversations.push(...data.conversations);
+  dbChatData.messages.push(...data.messages);
+}
+
+/**
+ * Muat database chat dari localStorage ke memori. Memprioritaskan format v2;
+ * jika hanya tersedia v1, data lama dimigrasikan otomatis.
+ */
+export function syncChatDbFromStorage(): ChatDbData {
+  if (typeof window === "undefined") return dbChatData;
+  try {
+    const v2 = window.localStorage.getItem(CHAT_DB_KEY);
+    if (v2) {
+      const parsed = JSON.parse(v2) as unknown;
+      if (isChatDbData(parsed)) {
+        hydrateChat(parsed);
+        return dbChatData;
+      }
+    }
+    const legacy = window.localStorage.getItem(CHAT_LEGACY_KEY);
+    if (legacy) {
+      const migrated = migrateLegacyChat(JSON.parse(legacy));
+      if (migrated) {
+        hydrateChat(migrated);
+        persistChatDb();
+        return dbChatData;
+      }
+    }
+  } catch {
+    // abaikan jika data korup / localStorage tidak tersedia
+  }
+  return dbChatData;
+}
+
+/** Simpan database chat saat ini ke localStorage (durable). */
+export function persistChatDb(): void {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(CHAT_DB_KEY, JSON.stringify(dbChatData));
+  } catch {
+    // abaikan ketika penyimpanan penuh / tidak tersedia
+  }
+}
 
 /* ===================== Akun & Keamanan (demo) ===================== */
 

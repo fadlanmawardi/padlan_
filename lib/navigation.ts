@@ -19,6 +19,7 @@ import {
   LibraryBig,
   ListTodo,
   Megaphone,
+  MessageCircle,
   MessagesSquare,
   NotebookPen,
   Presentation,
@@ -144,6 +145,7 @@ export const NAV_ITEMS: Record<Role, NavSection[]> = {
         { title: "Aktivitas", href: "/super-admin/activity", icon: Activity },
         { title: "Leaderboard", href: "/super-admin/leaderboard", icon: Trophy },
         { title: "Audit Log", href: "/super-admin/audit-log", icon: ScrollText },
+        { title: "Chat", href: "/super-admin/chats", icon: MessageCircle },
       ],
     },
     {
@@ -220,6 +222,7 @@ export const NAV_ITEMS: Record<Role, NavSection[]> = {
         { title: "Notifikasi", href: "/admin/notifications", icon: Bell },
         { title: "Aktivitas", href: "/admin/activity", icon: Activity },
         { title: "Leaderboard", href: "/admin/leaderboard", icon: Trophy },
+        { title: "Chat", href: "/admin/chats", icon: MessageCircle },
       ],
     },
     {
@@ -283,6 +286,7 @@ export const NAV_ITEMS: Record<Role, NavSection[]> = {
         { title: "Aktivitas", href: "/student/activity", icon: Activity },
         { title: "Leaderboard", href: "/student/leaderboard", icon: Trophy },
         { title: "Achievement", href: "/student/achievements", icon: ListTodo },
+        { title: "Chat", href: "/student/chats", icon: MessageCircle },
       ],
     },
     {

@@ -882,6 +882,84 @@ export interface SuperAdminAnalytics {
   popularBooks: BookRecordExtra[];
 }
 
+/* ===================== Chat antar User ===================== */
+
+export type MessageStatus = "sending" | "sent" | "delivered" | "read";
+
+export interface ChatAttachment {
+  type: "image" | "document" | "file";
+  name: string;
+  url?: string;
+  sizeKb?: number;
+  mime?: string;
+}
+
+/**
+ * Satu pesan chat. `deletedFor` berisi uid yang telah menghapus pesan ini
+ * hanya untuk dirinya sendiri (soft delete) — data asli tidak pernah hilang.
+ */
+export interface ChatMessage {
+  id: string;
+  conversationId: string;
+  senderId: string;
+  receiverId: string;
+  message: string;
+  createdAt: string;
+  updatedAt: string;
+  status: MessageStatus;
+  /** Waktu pesan dibaca oleh penerima; null selama belum dibaca. */
+  readAt: string | null;
+  /** Waktu pesan sampai ke perangkat penerima; null selama belum terkirim. */
+  deliveredAt: string | null;
+  /** Pesan yang sedang di-reply (opsional). */
+  replyToId?: string | null;
+  /** Soft delete: uid yang menyembunyikan pesan ini dari tampilannya. */
+  deletedFor?: string[];
+  /** Struktur lampiran (gambar/dokumen/file) untuk kebutuhan masa depan. */
+  attachment?: ChatAttachment | null;
+}
+
+/**
+ * Satu percakapan antara tepat dua user. Id bersifat deterministik dari
+ * pasangan uid (urutan di-sort) sehingga percakapan tidak dibuat dua kali.
+ */
+export interface ChatConversation {
+  id: string;
+  participants: string[];
+  lastMessage: string;
+  lastMessageAt: string;
+  lastSenderId: string;
+  createdAt: string;
+  updatedAt: string;
+  /** Soft delete: uid yang menyembunyikan percakapan dari daftarnya. */
+  deletedFor?: string[];
+}
+
+/** Ringkasan satu percakapan untuk daftar chat (dilihat dari satu user). */
+export interface ConversationSummary {
+  conversationId: string;
+  userId: string;
+  name: string;
+  role: Role;
+  className?: string;
+  photoUrl?: string;
+  lastMessage: string;
+  lastMessageAt: string;
+  lastMessageFromMe: boolean;
+  unreadCount: number;
+}
+
+/** Hasil pencarian isi pesan lama bagi user tertentu. */
+export interface ChatSearchResult {
+  conversationId: string;
+  messageId: string;
+  message: string;
+  createdAt: string;
+  senderName: string;
+  peerName: string;
+  peerId: string;
+}
+
 /* ===================== Pencarian ===================== */
 
 export interface SearchResultItem {

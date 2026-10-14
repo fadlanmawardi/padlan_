@@ -1,4 +1,4 @@
-import type { AppNotification } from "@/types";
+import type { AppNotification, ChatMessage } from "@/types";
 
 /**
  * Layanan realtime ringan untuk mode demo SchoolHub.
@@ -20,6 +20,12 @@ export type RealtimeEventType =
   | "loan"
   | "grade"
   | "achievement"
+  | "chat"
+  | "chat-read"
+  | "chat-delivered"
+  | "chat-hidden"
+  | "typing"
+  | "presence"
   | "data-changed";
 
 export interface RealtimeEvent<T = unknown> {
@@ -36,6 +42,45 @@ export interface NotificationEventPayload {
 export interface DataChangedPayload {
   scope: string;
   detail?: string;
+}
+
+export interface ChatMessageEventPayload {
+  message: ChatMessage;
+}
+
+export interface ChatReadEventPayload {
+  /** Pembaca pesan (user yang membuka percakapan). */
+  readerId: string;
+  /** Lawan bicara dari pembaca (pengirim asli). */
+  partnerId: string;
+  readAt: string;
+}
+
+export interface ChatDeliveredEventPayload {
+  /** Perangkat penerima yang menerima pesan. */
+  delivererId: string;
+  /** Pengirim asli (untuk diteruskan ke status pesannya). */
+  partnerId: string;
+  deliveredAt: string;
+}
+
+export interface ChatHiddenEventPayload {
+  /** User yang menghapus chat untuk dirinya sendiri. */
+  userId: string;
+  conversationId: string;
+  messageIds?: string[];
+}
+
+export interface TypingEventPayload {
+  conversationId: string;
+  userId: string;
+  typing: boolean;
+}
+
+export interface PresenceEventPayload {
+  userId: string;
+  online: boolean;
+  at: string;
 }
 
 type Listener<T = unknown> = (event: RealtimeEvent<T>) => void;
@@ -152,4 +197,136 @@ export function notify(userId: string, notification: AppNotification): void {
 /** Emit perubahan data umum agar UI dapat menyegarkan dirinya. */
 export function dataChanged(scope: string, detail?: string): void {
   emit<DataChangedPayload>("data-changed", { scope, detail });
+}
+
+/* ===================== Chat realtime ===================== */
+
+/** Sebarkan pesan chat baru ke semua tab/browser yang mendengarkan. */
+export function chatMessageSent(message: ChatMessage): void {
+  emit<ChatMessageEventPayload>("chat", { message });
+  emit<DataChangedPayload>("data-changed", {
+    scope: "chat",
+    detail: message.receiverId,
+  });
+}
+
+/**
+ * Subscriber hanya menerima pesan yang melibatkan `forUserId`
+ * (sebagai pengirim maupun penerima).
+ */
+export function onChatMessage(
+  forUserId: string,
+  handler: (message: ChatMessage) => void
+): () => void {
+  return subscribe<ChatMessageEventPayload>("chat", (event) => {
+    const message = event.payload?.message;
+    if (!message) return;
+    if (message.senderId === forUserId || message.receiverId === forUserId) {
+      handler(message);
+    }
+  });
+}
+
+/** Beri tahu pengirim bahwa pesannya sudah dibaca penerima. */
+export function chatRead(readerId: string, partnerId: string): void {
+  emit<ChatReadEventPayload>("chat-read", {
+    readerId,
+    partnerId,
+    readAt: new Date().toISOString(),
+  });
+  emit<DataChangedPayload>("data-changed", {
+    scope: "chat",
+    detail: partnerId,
+  });
+}
+
+export function onChatRead(handler: (payload: ChatReadEventPayload) => void): () => void {
+  return subscribe<ChatReadEventPayload>("chat-read", (event) => {
+    if (event.payload) handler(event.payload);
+  });
+}
+
+/** Beri tahu pengirim bahwa pesannya sudah sampai ke penerima. */
+export function chatDelivered(
+  delivererId: string,
+  partnerId: string
+): void {
+  emit<ChatDeliveredEventPayload>("chat-delivered", {
+    delivererId,
+    partnerId,
+    deliveredAt: new Date().toISOString(),
+  });
+  emit<DataChangedPayload>("data-changed", {
+    scope: "chat",
+    detail: partnerId,
+  });
+}
+
+export function onChatDelivered(
+  handler: (payload: ChatDeliveredEventPayload) => void
+): () => void {
+  return subscribe<ChatDeliveredEventPayload>("chat-delivered", (event) => {
+    if (event.payload) handler(event.payload);
+  });
+}
+
+/** Beri tahu tab lain milik user yang sama bahwa sebagian chat disembunyikan. */
+export function chatHidden(
+  userId: string,
+  conversationId: string,
+  messageIds?: string[]
+): void {
+  emit<ChatHiddenEventPayload>("chat-hidden", {
+    userId,
+    conversationId,
+    messageIds,
+  });
+}
+
+export function onChatHidden(
+  handler: (payload: ChatHiddenEventPayload) => void
+): () => void {
+  return subscribe<ChatHiddenEventPayload>("chat-hidden", (event) => {
+    if (event.payload) handler(event.payload);
+  });
+}
+
+/* ===================== Typing indicator ===================== */
+
+export function chatTyping(
+  conversationId: string,
+  userId: string,
+  typing: boolean
+): void {
+  emit<TypingEventPayload>("typing", {
+    conversationId,
+    userId,
+    typing,
+  });
+}
+
+export function onChatTyping(
+  handler: (payload: TypingEventPayload) => void
+): () => void {
+  return subscribe<TypingEventPayload>("typing", (event) => {
+    if (event.payload) handler(event.payload);
+  });
+}
+
+/* ===================== Presence (online/offline) ===================== */
+
+export function presenceChanged(userId: string, online: boolean): void {
+  emit<PresenceEventPayload>("presence", {
+    userId,
+    online,
+    at: new Date().toISOString(),
+  });
+}
+
+export function onPresenceChanged(
+  handler: (payload: PresenceEventPayload) => void
+): () => void {
+  return subscribe<PresenceEventPayload>("presence", (event) => {
+    if (event.payload) handler(event.payload);
+  });
 }

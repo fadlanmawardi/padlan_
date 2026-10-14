@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/tooltip";
 import { getInitials } from "@/lib/format";
 import { ROLE_LABELS } from "@/lib/permissions";
+import { useChatUnreadCount } from "@/hooks/use-chat-unread";
 
 export function isNavItemActive(pathname: string, item: NavItem): boolean {
   if (item.exact) return pathname === item.href;
@@ -39,10 +40,12 @@ function NavLink({
   item,
   active,
   collapsed,
+  badge,
 }: {
   item: NavItem;
   active: boolean;
   collapsed: boolean;
+  badge?: number;
 }) {
   const link = (
     <Link
@@ -69,6 +72,16 @@ function NavLink({
         )}
       />
       {!collapsed && <span className="truncate">{item.title}</span>}
+      {badge !== undefined && badge > 0 && (
+        <span
+          className={cn(
+            "bg-primary text-primary-foreground ml-auto flex h-4.5 min-w-4.5 items-center justify-center rounded-full px-1 text-[10px] font-semibold",
+            collapsed && "absolute top-0 right-0 size-4.5 min-w-4.5"
+          )}
+        >
+          {badge > 9 ? "9+" : badge}
+        </span>
+      )}
     </Link>
   );
 
@@ -93,6 +106,7 @@ export function SidebarContent({
   const router = useRouter();
   const { user, signOut } = useAuth();
   const sections = NAV_ITEMS[role];
+  const chatUnread = useChatUnreadCount(user?.uid);
 
   async function handleLogout() {
     await signOut();
@@ -144,9 +158,15 @@ export function SidebarContent({
             <ul className="space-y-1">
               {section.items.map((item) => {
                 const active = isNavItemActive(pathname, item);
+                const isChat = item.href.endsWith("/chats");
                 return (
                   <li key={item.href} className={cn(!collapsed && "px-0.5")}>
-                    <NavLink item={item} active={active} collapsed={collapsed} />
+                    <NavLink
+                      item={item}
+                      active={active}
+                      collapsed={collapsed}
+                      badge={isChat ? chatUnread : undefined}
+                    />
                   </li>
                 );
               })}
